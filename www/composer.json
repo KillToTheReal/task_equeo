@@ -1,0 +1,34 @@
+{
+  "name": "ekvio-dev/eq-megafon-user-export",
+  "description": "Ekvio Megafon user exporter",
+  "authors": [
+    {
+      "name": "Dmitry Vuylov",
+      "email": "vuylov.dmitry@e-queo.com"
+    }
+  ],
+  "type": "project",
+  "minimum-stability": "dev",
+  "prefer-stable": true,
+  "license": "commercial",
+  "require": {
+    "league/flysystem-sftp": "^1.0",
+    "ekvio-dev/integration-app-skeleton": "^5",
+    "ekvio-dev/integration-php-sdk": "^2",
+    "vlucas/phpdotenv": "^5.4"
+  },
+  "autoload": {
+    "psr-4": {
+      "App\\":"hello.dev/src/"
+    }
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^9.3",
+    "vimeo/psalm": "^4.0",
+    "squizlabs/php_codesniffer": "^3.5"
+  },
+  "scripts": {
+    "cs-check": "phpcs",
+    "cs-fix": "phpcbf"
+  }
+}

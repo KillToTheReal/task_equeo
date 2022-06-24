@@ -1,0 +1,33 @@
+{
+  "name": "ekvio-dev/integration-app-skeleton",
+  "description": "Ekvio integration application skeleton",
+  "type": "project",
+  "license": "proprietary",
+  "minimum-stability": "stable",
+  "authors": [
+    {
+      "name": "Vuylov Dmitry",
+      "email": "vuylov.dmitry@e-queo.com"
+    }
+  ],
+  "require": {
+    "php": "^7.2",
+    "ext-curl": "*",
+    "ext-json": "*",
+    "ext-mbstring": "*",
+    "ekvio-dev/integration-app-contracts": "^3",
+    "monolog/monolog": "^2.",
+    "php-di/php-di": "^6.1"
+  },
+  "suggest": {
+    "swiftmailer/swiftmailer": "Allow to mail logs through Swiftmailer"
+  },
+  "autoload": {
+    "psr-4": {
+      "Ekvio\\Integration\\Skeleton\\": "src/"
+    }
+  },
+  "config": {
+    "sort-packages": true
+  }
+}

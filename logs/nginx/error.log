@@ -1,0 +1,1162 @@
+2022/06/15 15:48:20 [notice] 1#1: using the "epoll" event method
+2022/06/15 15:48:20 [notice] 1#1: nginx/1.21.6
+2022/06/15 15:48:20 [notice] 1#1: built by gcc 10.2.1 20210110 (Debian 10.2.1-6) 
+2022/06/15 15:48:20 [notice] 1#1: OS: Linux 5.10.16.3-microsoft-standard-WSL2
+2022/06/15 15:48:20 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2022/06/15 15:48:20 [notice] 1#1: start worker processes
+2022/06/15 15:48:20 [notice] 1#1: start worker process 23
+2022/06/15 15:48:20 [notice] 1#1: start worker process 24
+2022/06/15 15:48:20 [notice] 1#1: start worker process 25
+2022/06/15 15:48:20 [notice] 1#1: start worker process 26
+2022/06/15 15:48:20 [notice] 1#1: start worker process 27
+2022/06/15 15:48:20 [notice] 1#1: start worker process 28
+2022/06/15 15:48:20 [notice] 1#1: start worker process 29
+2022/06/15 15:48:20 [notice] 1#1: start worker process 30
+2022/06/15 15:48:20 [notice] 1#1: start worker process 31
+2022/06/15 15:48:20 [notice] 1#1: start worker process 32
+2022/06/15 15:48:20 [notice] 1#1: start worker process 33
+2022/06/15 15:48:20 [notice] 1#1: start worker process 34
+2022/06/15 15:48:34 [error] 23#23: *2 open() "/var/www/hello.dev/favicon.ico" failed (2: No such file or directory), client: 172.18.0.1, server: hello.dev, request: "GET /favicon.ico HTTP/1.1", host: "localhost", referrer: "http://localhost/"
+2022/06/15 15:54:01 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2022/06/15 15:54:01 [notice] 23#23: gracefully shutting down
+2022/06/15 15:54:01 [notice] 32#32: gracefully shutting down
+2022/06/15 15:54:01 [notice] 25#25: gracefully shutting down
+2022/06/15 15:54:01 [notice] 24#24: gracefully shutting down
+2022/06/15 15:54:01 [notice] 26#26: gracefully shutting down
+2022/06/15 15:54:01 [notice] 27#27: gracefully shutting down
+2022/06/15 15:54:01 [notice] 29#29: gracefully shutting down
+2022/06/15 15:54:01 [notice] 28#28: gracefully shutting down
+2022/06/15 15:54:01 [notice] 34#34: gracefully shutting down
+2022/06/15 15:54:01 [notice] 31#31: gracefully shutting down
+2022/06/15 15:54:01 [notice] 28#28: exiting
+2022/06/15 15:54:01 [notice] 23#23: exiting
+2022/06/15 15:54:01 [notice] 33#33: gracefully shutting down
+2022/06/15 15:54:01 [notice] 30#30: gracefully shutting down
+2022/06/15 15:54:01 [notice] 32#32: exiting
+2022/06/15 15:54:01 [notice] 25#25: exiting
+2022/06/15 15:54:01 [notice] 24#24: exiting
+2022/06/15 15:54:01 [notice] 27#27: exiting
+2022/06/15 15:54:01 [notice] 29#29: exiting
+2022/06/15 15:54:01 [notice] 34#34: exiting
+2022/06/15 15:54:01 [notice] 29#29: exit
+2022/06/15 15:54:01 [notice] 31#31: exiting
+2022/06/15 15:54:01 [notice] 28#28: exit
+2022/06/15 15:54:01 [notice] 23#23: exit
+2022/06/15 15:54:01 [notice] 33#33: exiting
+2022/06/15 15:54:01 [notice] 30#30: exiting
+2022/06/15 15:54:01 [notice] 32#32: exit
+2022/06/15 15:54:01 [notice] 25#25: exit
+2022/06/15 15:54:01 [notice] 24#24: exit
+2022/06/15 15:54:01 [notice] 27#27: exit
+2022/06/15 15:54:01 [notice] 34#34: exit
+2022/06/15 15:54:01 [notice] 31#31: exit
+2022/06/15 15:54:01 [notice] 33#33: exit
+2022/06/15 15:54:01 [notice] 30#30: exit
+2022/06/15 15:54:01 [notice] 1#1: signal 17 (SIGCHLD) received from 30
+2022/06/15 15:54:01 [notice] 1#1: worker process 29 exited with code 0
+2022/06/15 15:54:01 [notice] 1#1: worker process 30 exited with code 0
+2022/06/15 15:54:01 [notice] 1#1: worker process 31 exited with code 0
+2022/06/15 15:54:01 [notice] 1#1: worker process 32 exited with code 0
+2022/06/15 15:54:01 [notice] 1#1: signal 29 (SIGIO) received
+2022/06/15 15:54:01 [notice] 1#1: signal 17 (SIGCHLD) received from 31
+2022/06/15 15:54:01 [notice] 1#1: signal 17 (SIGCHLD) received from 24
+2022/06/15 15:54:01 [notice] 1#1: worker process 24 exited with code 0
+2022/06/15 15:54:01 [notice] 1#1: signal 29 (SIGIO) received
+2022/06/15 15:54:01 [notice] 1#1: signal 17 (SIGCHLD) received from 27
+2022/06/15 15:54:01 [notice] 1#1: worker process 23 exited with code 0
+2022/06/15 15:54:01 [notice] 1#1: worker process 27 exited with code 0
+2022/06/15 15:54:01 [notice] 1#1: worker process 28 exited with code 0
+2022/06/15 15:54:01 [notice] 1#1: worker process 34 exited with code 0
+2022/06/15 15:54:01 [notice] 1#1: signal 29 (SIGIO) received
+2022/06/15 15:54:01 [notice] 1#1: signal 17 (SIGCHLD) received from 23
+2022/06/15 15:54:01 [notice] 1#1: signal 17 (SIGCHLD) received from 33
+2022/06/15 15:54:01 [notice] 1#1: worker process 25 exited with code 0
+2022/06/15 15:54:01 [notice] 1#1: worker process 33 exited with code 0
+2022/06/15 15:54:01 [notice] 1#1: signal 29 (SIGIO) received
+2022/06/15 15:54:10 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2022/06/15 15:54:11 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2022/06/15 15:54:22 [notice] 1#1: using the "epoll" event method
+2022/06/15 15:54:22 [notice] 1#1: nginx/1.21.6
+2022/06/15 15:54:22 [notice] 1#1: built by gcc 10.2.1 20210110 (Debian 10.2.1-6) 
+2022/06/15 15:54:22 [notice] 1#1: OS: Linux 5.10.16.3-microsoft-standard-WSL2
+2022/06/15 15:54:22 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2022/06/15 15:54:22 [notice] 1#1: start worker processes
+2022/06/15 15:54:22 [notice] 1#1: start worker process 22
+2022/06/15 15:54:22 [notice] 1#1: start worker process 23
+2022/06/15 15:54:22 [notice] 1#1: start worker process 24
+2022/06/15 15:54:22 [notice] 1#1: start worker process 25
+2022/06/15 15:54:22 [notice] 1#1: start worker process 26
+2022/06/15 15:54:22 [notice] 1#1: start worker process 27
+2022/06/15 15:54:22 [notice] 1#1: start worker process 28
+2022/06/15 15:54:22 [notice] 1#1: start worker process 29
+2022/06/15 15:54:22 [notice] 1#1: start worker process 30
+2022/06/15 15:54:22 [notice] 1#1: start worker process 31
+2022/06/15 15:54:22 [notice] 1#1: start worker process 32
+2022/06/15 15:54:22 [notice] 1#1: start worker process 33
+2022/06/15 15:56:33 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2022/06/15 15:56:33 [notice] 22#22: gracefully shutting down
+2022/06/15 15:56:33 [notice] 31#31: gracefully shutting down
+2022/06/15 15:56:33 [notice] 23#23: gracefully shutting down
+2022/06/15 15:56:33 [notice] 27#27: gracefully shutting down
+2022/06/15 15:56:33 [notice] 26#26: gracefully shutting down
+2022/06/15 15:56:33 [notice] 25#25: gracefully shutting down
+2022/06/15 15:56:33 [notice] 24#24: gracefully shutting down
+2022/06/15 15:56:33 [notice] 29#29: gracefully shutting down
+2022/06/15 15:56:33 [notice] 28#28: gracefully shutting down
+2022/06/15 15:56:33 [notice] 30#30: gracefully shutting down
+2022/06/15 15:56:33 [notice] 32#32: gracefully shutting down
+2022/06/15 15:56:33 [notice] 33#33: gracefully shutting down
+2022/06/15 15:56:33 [notice] 22#22: exiting
+2022/06/15 15:56:33 [notice] 31#31: exiting
+2022/06/15 15:56:33 [notice] 23#23: exiting
+2022/06/15 15:56:33 [notice] 27#27: exiting
+2022/06/15 15:56:33 [notice] 26#26: exiting
+2022/06/15 15:56:33 [notice] 25#25: exiting
+2022/06/15 15:56:33 [notice] 29#29: exiting
+2022/06/15 15:56:33 [notice] 24#24: exiting
+2022/06/15 15:56:33 [notice] 28#28: exiting
+2022/06/15 15:56:33 [notice] 30#30: exiting
+2022/06/15 15:56:33 [notice] 32#32: exiting
+2022/06/15 15:56:33 [notice] 33#33: exiting
+2022/06/15 15:56:33 [notice] 22#22: exit
+2022/06/15 15:56:33 [notice] 31#31: exit
+2022/06/15 15:56:33 [notice] 23#23: exit
+2022/06/15 15:56:33 [notice] 27#27: exit
+2022/06/15 15:56:33 [notice] 26#26: exit
+2022/06/15 15:56:33 [notice] 25#25: exit
+2022/06/15 15:56:33 [notice] 29#29: exit
+2022/06/15 15:56:33 [notice] 24#24: exit
+2022/06/15 15:56:33 [notice] 28#28: exit
+2022/06/15 15:56:33 [notice] 30#30: exit
+2022/06/15 15:56:33 [notice] 32#32: exit
+2022/06/15 15:56:33 [notice] 33#33: exit
+2022/06/15 15:56:33 [notice] 1#1: signal 17 (SIGCHLD) received from 33
+2022/06/15 15:56:33 [notice] 1#1: worker process 22 exited with code 0
+2022/06/15 15:56:33 [notice] 1#1: worker process 33 exited with code 0
+2022/06/15 15:56:33 [notice] 1#1: signal 29 (SIGIO) received
+2022/06/15 15:56:33 [notice] 1#1: signal 17 (SIGCHLD) received from 23
+2022/06/15 15:56:33 [notice] 1#1: worker process 23 exited with code 0
+2022/06/15 15:56:33 [notice] 1#1: worker process 24 exited with code 0
+2022/06/15 15:56:33 [notice] 1#1: worker process 28 exited with code 0
+2022/06/15 15:56:33 [notice] 1#1: worker process 32 exited with code 0
+2022/06/15 15:56:33 [notice] 1#1: signal 29 (SIGIO) received
+2022/06/15 15:56:33 [notice] 1#1: signal 17 (SIGCHLD) received from 24
+2022/06/15 15:56:33 [notice] 1#1: signal 17 (SIGCHLD) received from 25
+2022/06/15 15:56:33 [notice] 1#1: worker process 25 exited with code 0
+2022/06/15 15:56:33 [notice] 1#1: worker process 27 exited with code 0
+2022/06/15 15:56:33 [notice] 1#1: worker process 30 exited with code 0
+2022/06/15 15:56:33 [notice] 1#1: signal 29 (SIGIO) received
+2022/06/15 15:56:33 [notice] 1#1: signal 17 (SIGCHLD) received from 30
+2022/06/15 15:56:33 [notice] 1#1: signal 17 (SIGCHLD) received from 26
+2022/06/15 15:56:33 [notice] 1#1: worker process 26 exited with code 0
+2022/06/15 15:56:33 [notice] 1#1: signal 29 (SIGIO) received
+2022/06/15 15:56:33 [notice] 1#1: signal 17 (SIGCHLD) received from 31
+2022/06/15 15:56:33 [notice] 1#1: worker process 31 exited with code 0
+2022/06/15 15:56:33 [notice] 1#1: signal 29 (SIGIO) received
+2022/06/15 15:56:33 [notice] 1#1: signal 17 (SIGCHLD) received from 29
+2022/06/15 15:56:33 [notice] 1#1: worker process 29 exited with code 0
+2022/06/15 15:56:33 [notice] 1#1: exit
+2022/06/15 15:56:41 [notice] 1#1: using the "epoll" event method
+2022/06/15 15:56:41 [notice] 1#1: nginx/1.21.6
+2022/06/15 15:56:41 [notice] 1#1: built by gcc 10.2.1 20210110 (Debian 10.2.1-6) 
+2022/06/15 15:56:41 [notice] 1#1: OS: Linux 5.10.16.3-microsoft-standard-WSL2
+2022/06/15 15:56:41 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2022/06/15 15:56:41 [notice] 1#1: start worker processes
+2022/06/15 15:56:41 [notice] 1#1: start worker process 23
+2022/06/15 15:56:41 [notice] 1#1: start worker process 24
+2022/06/15 15:56:41 [notice] 1#1: start worker process 25
+2022/06/15 15:56:41 [notice] 1#1: start worker process 26
+2022/06/15 15:56:41 [notice] 1#1: start worker process 27
+2022/06/15 15:56:41 [notice] 1#1: start worker process 28
+2022/06/15 15:56:41 [notice] 1#1: start worker process 29
+2022/06/15 15:56:41 [notice] 1#1: start worker process 30
+2022/06/15 15:56:41 [notice] 1#1: start worker process 31
+2022/06/15 15:56:41 [notice] 1#1: start worker process 32
+2022/06/15 15:56:41 [notice] 1#1: start worker process 33
+2022/06/15 15:56:41 [notice] 1#1: start worker process 34
+2022/06/15 15:58:37 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2022/06/15 15:58:37 [notice] 23#23: gracefully shutting down
+2022/06/15 15:58:37 [notice] 30#30: gracefully shutting down
+2022/06/15 15:58:37 [notice] 24#24: gracefully shutting down
+2022/06/15 15:58:37 [notice] 25#25: gracefully shutting down
+2022/06/15 15:58:37 [notice] 28#28: gracefully shutting down
+2022/06/15 15:58:37 [notice] 28#28: exiting
+2022/06/15 15:58:37 [notice] 26#26: gracefully shutting down
+2022/06/15 15:58:37 [notice] 27#27: gracefully shutting down
+2022/06/15 15:58:37 [notice] 29#29: gracefully shutting down
+2022/06/15 15:58:37 [notice] 31#31: gracefully shutting down
+2022/06/15 15:58:37 [notice] 33#33: gracefully shutting down
+2022/06/15 15:58:37 [notice] 23#23: exiting
+2022/06/15 15:58:37 [notice] 32#32: gracefully shutting down
+2022/06/15 15:58:37 [notice] 34#34: gracefully shutting down
+2022/06/15 15:58:37 [notice] 30#30: exiting
+2022/06/15 15:58:37 [notice] 24#24: exiting
+2022/06/15 15:58:37 [notice] 25#25: exiting
+2022/06/15 15:58:37 [notice] 28#28: exit
+2022/06/15 15:58:37 [notice] 26#26: exiting
+2022/06/15 15:58:37 [notice] 27#27: exiting
+2022/06/15 15:58:37 [notice] 29#29: exiting
+2022/06/15 15:58:37 [notice] 31#31: exiting
+2022/06/15 15:58:37 [notice] 33#33: exiting
+2022/06/15 15:58:37 [notice] 23#23: exit
+2022/06/15 15:58:37 [notice] 32#32: exiting
+2022/06/15 15:58:37 [notice] 34#34: exiting
+2022/06/15 15:58:37 [notice] 30#30: exit
+2022/06/15 15:58:37 [notice] 24#24: exit
+2022/06/15 15:58:37 [notice] 25#25: exit
+2022/06/15 15:58:37 [notice] 26#26: exit
+2022/06/15 15:58:37 [notice] 27#27: exit
+2022/06/15 15:58:37 [notice] 29#29: exit
+2022/06/15 15:58:37 [notice] 31#31: exit
+2022/06/15 15:58:37 [notice] 33#33: exit
+2022/06/15 15:58:37 [notice] 32#32: exit
+2022/06/15 15:58:37 [notice] 34#34: exit
+2022/06/15 15:58:37 [notice] 1#1: signal 17 (SIGCHLD) received from 24
+2022/06/15 15:58:37 [notice] 1#1: worker process 24 exited with code 0
+2022/06/15 15:58:37 [notice] 1#1: worker process 29 exited with code 0
+2022/06/15 15:58:37 [notice] 1#1: signal 29 (SIGIO) received
+2022/06/15 15:58:37 [notice] 1#1: signal 17 (SIGCHLD) received from 28
+2022/06/15 15:58:37 [notice] 1#1: worker process 26 exited with code 0
+2022/06/15 15:58:37 [notice] 1#1: worker process 28 exited with code 0
+2022/06/15 15:58:37 [notice] 1#1: worker process 32 exited with code 0
+2022/06/15 15:58:37 [notice] 1#1: signal 29 (SIGIO) received
+2022/06/15 15:58:37 [notice] 1#1: signal 17 (SIGCHLD) received from 33
+2022/06/15 15:58:37 [notice] 1#1: worker process 33 exited with code 0
+2022/06/15 15:58:37 [notice] 1#1: signal 29 (SIGIO) received
+2022/06/15 15:58:37 [notice] 1#1: signal 17 (SIGCHLD) received from 23
+2022/06/15 15:58:37 [notice] 1#1: worker process 23 exited with code 0
+2022/06/15 15:58:37 [notice] 1#1: worker process 25 exited with code 0
+2022/06/15 15:58:37 [notice] 1#1: worker process 27 exited with code 0
+2022/06/15 15:58:37 [notice] 1#1: worker process 30 exited with code 0
+2022/06/15 15:58:37 [notice] 1#1: worker process 31 exited with code 0
+2022/06/15 15:58:37 [notice] 1#1: signal 29 (SIGIO) received
+2022/06/15 15:58:37 [notice] 1#1: signal 17 (SIGCHLD) received from 30
+2022/06/15 15:58:37 [notice] 1#1: signal 17 (SIGCHLD) received from 34
+2022/06/15 15:58:37 [notice] 1#1: worker process 34 exited with code 0
+2022/06/15 15:58:37 [notice] 1#1: exit
+2022/06/15 15:58:45 [notice] 1#1: using the "epoll" event method
+2022/06/15 15:58:45 [notice] 1#1: nginx/1.21.6
+2022/06/15 15:58:45 [notice] 1#1: built by gcc 10.2.1 20210110 (Debian 10.2.1-6) 
+2022/06/15 15:58:45 [notice] 1#1: OS: Linux 5.10.16.3-microsoft-standard-WSL2
+2022/06/15 15:58:45 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2022/06/15 15:58:45 [notice] 1#1: start worker processes
+2022/06/15 15:58:45 [notice] 1#1: start worker process 23
+2022/06/15 15:58:45 [notice] 1#1: start worker process 24
+2022/06/15 15:58:45 [notice] 1#1: start worker process 25
+2022/06/15 15:58:45 [notice] 1#1: start worker process 26
+2022/06/15 15:58:45 [notice] 1#1: start worker process 27
+2022/06/15 15:58:45 [notice] 1#1: start worker process 28
+2022/06/15 15:58:45 [notice] 1#1: start worker process 29
+2022/06/15 15:58:45 [notice] 1#1: start worker process 30
+2022/06/15 15:58:45 [notice] 1#1: start worker process 31
+2022/06/15 15:58:45 [notice] 1#1: start worker process 32
+2022/06/15 15:58:45 [notice] 1#1: start worker process 33
+2022/06/15 15:58:45 [notice] 1#1: start worker process 34
+2022/06/15 16:03:10 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2022/06/15 16:03:10 [notice] 23#23: gracefully shutting down
+2022/06/15 16:03:10 [notice] 31#31: gracefully shutting down
+2022/06/15 16:03:10 [notice] 24#24: gracefully shutting down
+2022/06/15 16:03:10 [notice] 25#25: gracefully shutting down
+2022/06/15 16:03:10 [notice] 26#26: gracefully shutting down
+2022/06/15 16:03:10 [notice] 27#27: gracefully shutting down
+2022/06/15 16:03:10 [notice] 29#29: gracefully shutting down
+2022/06/15 16:03:10 [notice] 30#30: gracefully shutting down
+2022/06/15 16:03:10 [notice] 28#28: gracefully shutting down
+2022/06/15 16:03:10 [notice] 32#32: gracefully shutting down
+2022/06/15 16:03:10 [notice] 33#33: gracefully shutting down
+2022/06/15 16:03:10 [notice] 23#23: exiting
+2022/06/15 16:03:10 [notice] 34#34: gracefully shutting down
+2022/06/15 16:03:10 [notice] 34#34: exiting
+2022/06/15 16:03:10 [notice] 31#31: exiting
+2022/06/15 16:03:10 [notice] 24#24: exiting
+2022/06/15 16:03:10 [notice] 25#25: exiting
+2022/06/15 16:03:10 [notice] 27#27: exiting
+2022/06/15 16:03:10 [notice] 29#29: exiting
+2022/06/15 16:03:10 [notice] 30#30: exiting
+2022/06/15 16:03:10 [notice] 28#28: exiting
+2022/06/15 16:03:10 [notice] 28#28: exit
+2022/06/15 16:03:10 [notice] 32#32: exiting
+2022/06/15 16:03:10 [notice] 33#33: exiting
+2022/06/15 16:03:10 [notice] 23#23: exit
+2022/06/15 16:03:10 [notice] 34#34: exit
+2022/06/15 16:03:10 [notice] 31#31: exit
+2022/06/15 16:03:10 [notice] 24#24: exit
+2022/06/15 16:03:10 [notice] 25#25: exit
+2022/06/15 16:03:10 [notice] 27#27: exit
+2022/06/15 16:03:10 [notice] 29#29: exit
+2022/06/15 16:03:10 [notice] 30#30: exit
+2022/06/15 16:03:10 [notice] 32#32: exit
+2022/06/15 16:03:10 [notice] 33#33: exit
+2022/06/15 16:03:11 [notice] 1#1: signal 17 (SIGCHLD) received from 34
+2022/06/15 16:03:11 [notice] 1#1: worker process 23 exited with code 0
+2022/06/15 16:03:11 [notice] 1#1: worker process 29 exited with code 0
+2022/06/15 16:03:11 [notice] 1#1: worker process 34 exited with code 0
+2022/06/15 16:03:11 [notice] 1#1: signal 29 (SIGIO) received
+2022/06/15 16:03:11 [notice] 1#1: signal 17 (SIGCHLD) received from 29
+2022/06/15 16:03:11 [notice] 1#1: signal 17 (SIGCHLD) received from 24
+2022/06/15 16:03:11 [notice] 1#1: worker process 24 exited with code 0
+2022/06/15 16:03:11 [notice] 1#1: signal 29 (SIGIO) received
+2022/06/15 16:03:11 [notice] 1#1: signal 17 (SIGCHLD) received from 31
+2022/06/15 16:03:11 [notice] 1#1: worker process 31 exited with code 0
+2022/06/15 16:03:11 [notice] 1#1: signal 29 (SIGIO) received
+2022/06/15 16:03:11 [notice] 1#1: signal 17 (SIGCHLD) received from 33
+2022/06/15 16:03:11 [notice] 1#1: worker process 25 exited with code 0
+2022/06/15 16:03:11 [notice] 1#1: worker process 32 exited with code 0
+2022/06/15 16:03:11 [notice] 1#1: worker process 33 exited with code 0
+2022/06/15 16:03:11 [notice] 1#1: signal 29 (SIGIO) received
+2022/06/15 16:03:11 [notice] 1#1: signal 17 (SIGCHLD) received from 25
+2022/06/15 16:03:11 [notice] 1#1: signal 17 (SIGCHLD) received from 30
+2022/06/15 16:03:11 [notice] 1#1: worker process 30 exited with code 0
+2022/06/15 16:03:11 [notice] 1#1: signal 29 (SIGIO) received
+2022/06/15 16:03:11 [notice] 1#1: signal 17 (SIGCHLD) received from 27
+2022/06/15 16:03:11 [notice] 1#1: worker process 27 exited with code 0
+2022/06/15 16:03:11 [notice] 1#1: worker process 28 exited with code 0
+2022/06/15 16:03:11 [notice] 1#1: signal 29 (SIGIO) received
+2022/06/15 16:03:14 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2022/06/15 16:04:26 [notice] 1#1: using the "epoll" event method
+2022/06/15 16:04:26 [notice] 1#1: nginx/1.21.6
+2022/06/15 16:04:26 [notice] 1#1: built by gcc 10.2.1 20210110 (Debian 10.2.1-6) 
+2022/06/15 16:04:26 [notice] 1#1: OS: Linux 5.10.16.3-microsoft-standard-WSL2
+2022/06/15 16:04:26 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2022/06/15 16:04:26 [notice] 1#1: start worker processes
+2022/06/15 16:04:26 [notice] 1#1: start worker process 22
+2022/06/15 16:04:26 [notice] 1#1: start worker process 23
+2022/06/15 16:04:26 [notice] 1#1: start worker process 24
+2022/06/15 16:04:26 [notice] 1#1: start worker process 25
+2022/06/15 16:04:26 [notice] 1#1: start worker process 26
+2022/06/15 16:04:26 [notice] 1#1: start worker process 27
+2022/06/15 16:04:26 [notice] 1#1: start worker process 28
+2022/06/15 16:04:26 [notice] 1#1: start worker process 29
+2022/06/15 16:04:26 [notice] 1#1: start worker process 30
+2022/06/15 16:04:26 [notice] 1#1: start worker process 31
+2022/06/15 16:04:26 [notice] 1#1: start worker process 32
+2022/06/15 16:04:26 [notice] 1#1: start worker process 33
+2022/06/15 16:04:44 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2022/06/15 16:04:44 [notice] 22#22: gracefully shutting down
+2022/06/15 16:04:44 [notice] 33#33: gracefully shutting down
+2022/06/15 16:04:44 [notice] 23#23: gracefully shutting down
+2022/06/15 16:04:44 [notice] 24#24: gracefully shutting down
+2022/06/15 16:04:44 [notice] 25#25: gracefully shutting down
+2022/06/15 16:04:44 [notice] 25#25: exiting
+2022/06/15 16:04:44 [notice] 26#26: gracefully shutting down
+2022/06/15 16:04:44 [notice] 27#27: gracefully shutting down
+2022/06/15 16:04:44 [notice] 28#28: gracefully shutting down
+2022/06/15 16:04:44 [notice] 29#29: gracefully shutting down
+2022/06/15 16:04:44 [notice] 31#31: gracefully shutting down
+2022/06/15 16:04:44 [notice] 30#30: gracefully shutting down
+2022/06/15 16:04:44 [notice] 32#32: gracefully shutting down
+2022/06/15 16:04:44 [notice] 22#22: exiting
+2022/06/15 16:04:44 [notice] 33#33: exiting
+2022/06/15 16:04:44 [notice] 23#23: exiting
+2022/06/15 16:04:44 [notice] 24#24: exiting
+2022/06/15 16:04:44 [notice] 25#25: exit
+2022/06/15 16:04:44 [notice] 26#26: exiting
+2022/06/15 16:04:44 [notice] 27#27: exiting
+2022/06/15 16:04:44 [notice] 28#28: exiting
+2022/06/15 16:04:44 [notice] 29#29: exiting
+2022/06/15 16:04:44 [notice] 31#31: exiting
+2022/06/15 16:04:44 [notice] 30#30: exiting
+2022/06/15 16:04:44 [notice] 32#32: exiting
+2022/06/15 16:04:44 [notice] 22#22: exit
+2022/06/15 16:04:44 [notice] 33#33: exit
+2022/06/15 16:04:44 [notice] 23#23: exit
+2022/06/15 16:04:44 [notice] 24#24: exit
+2022/06/15 16:04:44 [notice] 26#26: exit
+2022/06/15 16:04:44 [notice] 27#27: exit
+2022/06/15 16:04:44 [notice] 28#28: exit
+2022/06/15 16:04:44 [notice] 29#29: exit
+2022/06/15 16:04:44 [notice] 31#31: exit
+2022/06/15 16:04:44 [notice] 30#30: exit
+2022/06/15 16:04:44 [notice] 32#32: exit
+2022/06/15 16:04:44 [notice] 1#1: signal 17 (SIGCHLD) received from 26
+2022/06/15 16:04:44 [notice] 1#1: worker process 23 exited with code 0
+2022/06/15 16:04:44 [notice] 1#1: worker process 25 exited with code 0
+2022/06/15 16:04:44 [notice] 1#1: worker process 26 exited with code 0
+2022/06/15 16:04:44 [notice] 1#1: worker process 27 exited with code 0
+2022/06/15 16:04:44 [notice] 1#1: worker process 30 exited with code 0
+2022/06/15 16:04:44 [notice] 1#1: worker process 31 exited with code 0
+2022/06/15 16:04:44 [notice] 1#1: worker process 32 exited with code 0
+2022/06/15 16:04:44 [notice] 1#1: worker process 33 exited with code 0
+2022/06/15 16:04:44 [notice] 1#1: signal 29 (SIGIO) received
+2022/06/15 16:04:44 [notice] 1#1: signal 17 (SIGCHLD) received from 23
+2022/06/15 16:04:44 [notice] 1#1: signal 17 (SIGCHLD) received from 28
+2022/06/15 16:04:44 [notice] 1#1: worker process 28 exited with code 0
+2022/06/15 16:04:44 [notice] 1#1: signal 29 (SIGIO) received
+2022/06/15 16:04:44 [notice] 1#1: signal 17 (SIGCHLD) received from 22
+2022/06/15 16:04:44 [notice] 1#1: worker process 22 exited with code 0
+2022/06/15 16:04:44 [notice] 1#1: worker process 29 exited with code 0
+2022/06/15 16:04:44 [notice] 1#1: signal 29 (SIGIO) received
+2022/06/15 16:04:44 [notice] 1#1: signal 17 (SIGCHLD) received from 29
+2022/06/15 16:04:44 [notice] 1#1: signal 17 (SIGCHLD) received from 24
+2022/06/15 16:04:44 [notice] 1#1: worker process 24 exited with code 0
+2022/06/15 16:04:44 [notice] 1#1: exit
+2022/06/15 16:06:35 [notice] 1#1: using the "epoll" event method
+2022/06/15 16:06:35 [notice] 1#1: nginx/1.21.6
+2022/06/15 16:06:35 [notice] 1#1: built by gcc 10.2.1 20210110 (Debian 10.2.1-6) 
+2022/06/15 16:06:35 [notice] 1#1: OS: Linux 5.10.16.3-microsoft-standard-WSL2
+2022/06/15 16:06:35 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2022/06/15 16:06:35 [notice] 1#1: start worker processes
+2022/06/15 16:06:35 [notice] 1#1: start worker process 22
+2022/06/15 16:06:35 [notice] 1#1: start worker process 23
+2022/06/15 16:06:35 [notice] 1#1: start worker process 24
+2022/06/15 16:06:35 [notice] 1#1: start worker process 25
+2022/06/15 16:06:35 [notice] 1#1: start worker process 26
+2022/06/15 16:06:35 [notice] 1#1: start worker process 27
+2022/06/15 16:06:35 [notice] 1#1: start worker process 28
+2022/06/15 16:06:35 [notice] 1#1: start worker process 29
+2022/06/15 16:06:35 [notice] 1#1: start worker process 30
+2022/06/15 16:06:35 [notice] 1#1: start worker process 31
+2022/06/15 16:06:35 [notice] 1#1: start worker process 32
+2022/06/15 16:06:35 [notice] 1#1: start worker process 33
+2022/06/15 16:06:38 [error] 22#22: *1 FastCGI sent in stderr: "PHP message: Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: host.docker.internal:9003 (through xdebug.client_host/xdebug.client_port) :-(" while reading response header from upstream, client: 172.18.0.1, server: hello.dev, request: "GET / HTTP/1.1", upstream: "fastcgi://172.18.0.3:9000", host: "localhost"
+2022/06/15 16:06:42 [error] 22#22: *1 FastCGI sent in stderr: "PHP message: Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: host.docker.internal:9003 (through xdebug.client_host/xdebug.client_port) :-(" while reading response header from upstream, client: 172.18.0.1, server: hello.dev, request: "GET / HTTP/1.1", upstream: "fastcgi://172.18.0.3:9000", host: "localhost"
+2022/06/15 16:06:58 [error] 22#22: *1 FastCGI sent in stderr: "PHP message: Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: host.docker.internal:9003 (through xdebug.client_host/xdebug.client_port) :-(" while reading response header from upstream, client: 172.18.0.1, server: hello.dev, request: "GET / HTTP/1.1", upstream: "fastcgi://172.18.0.3:9000", host: "localhost"
+2022/06/15 16:10:34 [error] 22#22: *1 upstream timed out (110: Connection timed out) while reading response header from upstream, client: 172.18.0.1, server: hello.dev, request: "GET / HTTP/1.1", upstream: "fastcgi://172.18.0.3:9000", host: "localhost"
+2022/06/15 16:13:03 [error] 26#26: *12 upstream timed out (110: Connection timed out) while reading response header from upstream, client: 172.18.0.1, server: hello.dev, request: "GET / HTTP/1.1", upstream: "fastcgi://172.18.0.3:9000", host: "localhost"
+2022/06/15 16:16:07 [error] 28#28: *16 upstream timed out (110: Connection timed out) while reading response header from upstream, client: 172.18.0.1, server: hello.dev, request: "GET / HTTP/1.1", upstream: "fastcgi://172.18.0.3:9000", host: "localhost"
+2022/06/15 16:47:02 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2022/06/15 16:47:02 [notice] 22#22: gracefully shutting down
+2022/06/15 16:47:02 [notice] 30#30: gracefully shutting down
+2022/06/15 16:47:02 [notice] 23#23: gracefully shutting down
+2022/06/15 16:47:02 [notice] 24#24: gracefully shutting down
+2022/06/15 16:47:02 [notice] 25#25: gracefully shutting down
+2022/06/15 16:47:02 [notice] 26#26: gracefully shutting down
+2022/06/15 16:47:02 [notice] 27#27: gracefully shutting down
+2022/06/15 16:47:02 [notice] 28#28: gracefully shutting down
+2022/06/15 16:47:02 [notice] 29#29: gracefully shutting down
+2022/06/15 16:47:02 [notice] 31#31: gracefully shutting down
+2022/06/15 16:47:02 [notice] 32#32: gracefully shutting down
+2022/06/15 16:47:02 [notice] 22#22: exiting
+2022/06/15 16:47:02 [notice] 33#33: gracefully shutting down
+2022/06/15 16:47:02 [notice] 30#30: exiting
+2022/06/15 16:47:02 [notice] 23#23: exiting
+2022/06/15 16:47:02 [notice] 24#24: exiting
+2022/06/15 16:47:02 [notice] 25#25: exiting
+2022/06/15 16:47:02 [notice] 26#26: exiting
+2022/06/15 16:47:02 [notice] 27#27: exiting
+2022/06/15 16:47:02 [notice] 28#28: exiting
+2022/06/15 16:47:02 [notice] 29#29: exiting
+2022/06/15 16:47:02 [notice] 31#31: exiting
+2022/06/15 16:47:02 [notice] 32#32: exiting
+2022/06/15 16:47:02 [notice] 22#22: exit
+2022/06/15 16:47:02 [notice] 33#33: exiting
+2022/06/15 16:47:02 [notice] 30#30: exit
+2022/06/15 16:47:02 [notice] 23#23: exit
+2022/06/15 16:47:02 [notice] 24#24: exit
+2022/06/15 16:47:02 [notice] 25#25: exit
+2022/06/15 16:47:02 [notice] 26#26: exit
+2022/06/15 16:47:02 [notice] 27#27: exit
+2022/06/15 16:47:02 [notice] 28#28: exit
+2022/06/15 16:47:02 [notice] 29#29: exit
+2022/06/15 16:47:02 [notice] 31#31: exit
+2022/06/15 16:47:02 [notice] 32#32: exit
+2022/06/15 16:47:02 [notice] 33#33: exit
+2022/06/15 16:47:02 [notice] 1#1: signal 17 (SIGCHLD) received from 33
+2022/06/15 16:47:02 [notice] 1#1: worker process 33 exited with code 0
+2022/06/15 16:47:02 [notice] 1#1: signal 29 (SIGIO) received
+2022/06/15 16:47:02 [notice] 1#1: signal 17 (SIGCHLD) received from 23
+2022/06/15 16:47:02 [notice] 1#1: worker process 23 exited with code 0
+2022/06/15 16:47:02 [notice] 1#1: worker process 25 exited with code 0
+2022/06/15 16:47:02 [notice] 1#1: worker process 28 exited with code 0
+2022/06/15 16:47:02 [notice] 1#1: signal 29 (SIGIO) received
+2022/06/15 16:47:02 [notice] 1#1: signal 17 (SIGCHLD) received from 25
+2022/06/15 16:47:02 [notice] 1#1: signal 17 (SIGCHLD) received from 26
+2022/06/15 16:47:02 [notice] 1#1: worker process 24 exited with code 0
+2022/06/15 16:47:02 [notice] 1#1: worker process 26 exited with code 0
+2022/06/15 16:47:02 [notice] 1#1: worker process 31 exited with code 0
+2022/06/15 16:47:02 [notice] 1#1: signal 29 (SIGIO) received
+2022/06/15 16:47:02 [notice] 1#1: signal 17 (SIGCHLD) received from 24
+2022/06/15 16:47:02 [notice] 1#1: signal 17 (SIGCHLD) received from 29
+2022/06/15 16:47:02 [notice] 1#1: worker process 22 exited with code 0
+2022/06/15 16:47:02 [notice] 1#1: worker process 27 exited with code 0
+2022/06/15 16:47:02 [notice] 1#1: worker process 29 exited with code 0
+2022/06/15 16:47:02 [notice] 1#1: worker process 30 exited with code 0
+2022/06/15 16:47:02 [notice] 1#1: worker process 32 exited with code 0
+2022/06/15 16:47:02 [notice] 1#1: exit
+2022/06/16 18:46:21 [notice] 1#1: using the "epoll" event method
+2022/06/16 18:46:21 [notice] 1#1: nginx/1.21.6
+2022/06/16 18:46:21 [notice] 1#1: built by gcc 10.2.1 20210110 (Debian 10.2.1-6) 
+2022/06/16 18:46:21 [notice] 1#1: OS: Linux 5.10.16.3-microsoft-standard-WSL2
+2022/06/16 18:46:21 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2022/06/16 18:46:21 [notice] 1#1: start worker processes
+2022/06/16 18:46:21 [notice] 1#1: start worker process 23
+2022/06/16 18:46:21 [notice] 1#1: start worker process 24
+2022/06/16 18:46:21 [notice] 1#1: start worker process 25
+2022/06/16 18:46:21 [notice] 1#1: start worker process 26
+2022/06/16 18:46:21 [notice] 1#1: start worker process 27
+2022/06/16 18:46:21 [notice] 1#1: start worker process 28
+2022/06/16 18:46:21 [notice] 1#1: start worker process 29
+2022/06/16 18:46:21 [notice] 1#1: start worker process 30
+2022/06/16 18:46:21 [notice] 1#1: start worker process 31
+2022/06/16 18:46:21 [notice] 1#1: start worker process 32
+2022/06/16 18:46:21 [notice] 1#1: start worker process 33
+2022/06/16 18:46:21 [notice] 1#1: start worker process 34
+2022/06/16 18:46:24 [error] 23#23: *1 FastCGI sent in stderr: "PHP message: Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: host.docker.internal:9003 (through xdebug.client_host/xdebug.client_port) :-(" while reading response header from upstream, client: 172.20.0.1, server: hello.dev, request: "GET / HTTP/1.1", upstream: "fastcgi://172.20.0.3:9000", host: "localhost"
+2022/06/16 18:46:24 [error] 23#23: *1 open() "/var/www/hello.dev/favicon.ico" failed (2: No such file or directory), client: 172.20.0.1, server: hello.dev, request: "GET /favicon.ico HTTP/1.1", host: "localhost", referrer: "http://localhost/"
+2022/06/16 18:51:06 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2022/06/16 18:51:06 [notice] 23#23: gracefully shutting down
+2022/06/16 18:51:06 [notice] 30#30: gracefully shutting down
+2022/06/16 18:51:06 [notice] 24#24: gracefully shutting down
+2022/06/16 18:51:06 [notice] 25#25: gracefully shutting down
+2022/06/16 18:51:06 [notice] 26#26: gracefully shutting down
+2022/06/16 18:51:06 [notice] 28#28: gracefully shutting down
+2022/06/16 18:51:06 [notice] 27#27: gracefully shutting down
+2022/06/16 18:51:06 [notice] 29#29: gracefully shutting down
+2022/06/16 18:51:06 [notice] 31#31: gracefully shutting down
+2022/06/16 18:51:06 [notice] 32#32: gracefully shutting down
+2022/06/16 18:51:06 [notice] 23#23: exiting
+2022/06/16 18:51:06 [notice] 33#33: gracefully shutting down
+2022/06/16 18:51:06 [notice] 34#34: gracefully shutting down
+2022/06/16 18:51:06 [notice] 30#30: exiting
+2022/06/16 18:51:06 [notice] 24#24: exiting
+2022/06/16 18:51:06 [notice] 25#25: exiting
+2022/06/16 18:51:06 [notice] 26#26: exiting
+2022/06/16 18:51:06 [notice] 28#28: exiting
+2022/06/16 18:51:06 [notice] 27#27: exiting
+2022/06/16 18:51:06 [notice] 29#29: exiting
+2022/06/16 18:51:06 [notice] 31#31: exiting
+2022/06/16 18:51:06 [notice] 32#32: exiting
+2022/06/16 18:51:06 [notice] 23#23: exit
+2022/06/16 18:51:06 [notice] 33#33: exiting
+2022/06/16 18:51:06 [notice] 34#34: exiting
+2022/06/16 18:51:06 [notice] 30#30: exit
+2022/06/16 18:51:06 [notice] 24#24: exit
+2022/06/16 18:51:06 [notice] 25#25: exit
+2022/06/16 18:51:06 [notice] 26#26: exit
+2022/06/16 18:51:06 [notice] 28#28: exit
+2022/06/16 18:51:06 [notice] 27#27: exit
+2022/06/16 18:51:06 [notice] 29#29: exit
+2022/06/16 18:51:06 [notice] 31#31: exit
+2022/06/16 18:51:06 [notice] 32#32: exit
+2022/06/16 18:51:06 [notice] 33#33: exit
+2022/06/16 18:51:06 [notice] 34#34: exit
+2022/06/16 18:51:06 [notice] 1#1: signal 17 (SIGCHLD) received from 25
+2022/06/16 18:51:06 [notice] 1#1: worker process 24 exited with code 0
+2022/06/16 18:51:06 [notice] 1#1: worker process 25 exited with code 0
+2022/06/16 18:51:06 [notice] 1#1: worker process 26 exited with code 0
+2022/06/16 18:51:06 [notice] 1#1: worker process 27 exited with code 0
+2022/06/16 18:51:06 [notice] 1#1: worker process 29 exited with code 0
+2022/06/16 18:51:06 [notice] 1#1: worker process 30 exited with code 0
+2022/06/16 18:51:06 [notice] 1#1: worker process 31 exited with code 0
+2022/06/16 18:51:06 [notice] 1#1: worker process 33 exited with code 0
+2022/06/16 18:51:06 [notice] 1#1: worker process 34 exited with code 0
+2022/06/16 18:51:06 [notice] 1#1: signal 29 (SIGIO) received
+2022/06/16 18:51:06 [notice] 1#1: signal 17 (SIGCHLD) received from 26
+2022/06/16 18:51:06 [notice] 1#1: signal 17 (SIGCHLD) received from 28
+2022/06/16 18:51:06 [notice] 1#1: worker process 23 exited with code 0
+2022/06/16 18:51:06 [notice] 1#1: worker process 28 exited with code 0
+2022/06/16 18:51:06 [notice] 1#1: signal 29 (SIGIO) received
+2022/06/16 18:51:06 [notice] 1#1: signal 17 (SIGCHLD) received from 23
+2022/06/16 18:51:06 [notice] 1#1: signal 17 (SIGCHLD) received from 32
+2022/06/16 18:51:06 [notice] 1#1: worker process 32 exited with code 0
+2022/06/16 18:51:06 [notice] 1#1: exit
+2022/06/24 11:48:36 [notice] 1#1: using the "epoll" event method
+2022/06/24 11:48:36 [notice] 1#1: nginx/1.21.6
+2022/06/24 11:48:36 [notice] 1#1: built by gcc 10.2.1 20210110 (Debian 10.2.1-6) 
+2022/06/24 11:48:36 [notice] 1#1: OS: Linux 5.10.16.3-microsoft-standard-WSL2
+2022/06/24 11:48:36 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2022/06/24 11:48:36 [notice] 1#1: start worker processes
+2022/06/24 11:48:36 [notice] 1#1: start worker process 22
+2022/06/24 11:48:36 [notice] 1#1: start worker process 23
+2022/06/24 11:48:36 [notice] 1#1: start worker process 24
+2022/06/24 11:48:36 [notice] 1#1: start worker process 25
+2022/06/24 11:48:36 [notice] 1#1: start worker process 26
+2022/06/24 11:48:36 [notice] 1#1: start worker process 27
+2022/06/24 11:48:36 [notice] 1#1: start worker process 28
+2022/06/24 11:48:36 [notice] 1#1: start worker process 29
+2022/06/24 11:48:36 [notice] 1#1: start worker process 30
+2022/06/24 11:48:36 [notice] 1#1: start worker process 31
+2022/06/24 11:48:36 [notice] 1#1: start worker process 32
+2022/06/24 11:48:36 [notice] 1#1: start worker process 33
+2022/06/24 11:50:38 [error] 22#22: *1 FastCGI sent in stderr: "PHP message: Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: host.docker.internal:9003 (through xdebug.client_host/xdebug.client_port) :-(" while reading response header from upstream, client: 172.20.0.1, server: hello.dev, request: "GET / HTTP/1.1", upstream: "fastcgi://172.20.0.3:9000", host: "localhost"
+2022/06/24 11:50:39 [error] 22#22: *1 open() "/var/www/hello.dev/favicon.ico" failed (2: No such file or directory), client: 172.20.0.1, server: hello.dev, request: "GET /favicon.ico HTTP/1.1", host: "localhost", referrer: "http://localhost/"
+2022/06/24 11:58:12 [error] 24#24: *4 FastCGI sent in stderr: "PHP message: Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: host.docker.internal:9003 (through xdebug.client_host/xdebug.client_port) :-(" while reading response header from upstream, client: 172.20.0.1, server: hello.dev, request: "GET / HTTP/1.1", upstream: "fastcgi://172.20.0.3:9000", host: "localhost"
+2022/06/24 11:58:46 [error] 24#24: *4 FastCGI sent in stderr: "PHP message: Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: host.docker.internal:9003 (through xdebug.client_host/xdebug.client_port) :-(" while reading response header from upstream, client: 172.20.0.1, server: hello.dev, request: "GET / HTTP/1.1", upstream: "fastcgi://172.20.0.3:9000", host: "localhost"
+2022/06/24 12:00:09 [error] 26#26: *8 FastCGI sent in stderr: "PHP message: Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: host.docker.internal:9003 (through xdebug.client_host/xdebug.client_port) :-(" while reading response header from upstream, client: 172.20.0.1, server: hello.dev, request: "GET / HTTP/1.1", upstream: "fastcgi://172.20.0.3:9000", host: "localhost"
+2022/06/24 12:00:09 [error] 26#26: *8 FastCGI sent in stderr: "PHP message: Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: host.docker.internal:9003 (through xdebug.client_host/xdebug.client_port) :-(" while reading response header from upstream, client: 172.20.0.1, server: hello.dev, request: "GET / HTTP/1.1", upstream: "fastcgi://172.20.0.3:9000", host: "localhost"
+2022/06/24 12:00:10 [error] 26#26: *8 FastCGI sent in stderr: "PHP message: Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: host.docker.internal:9003 (through xdebug.client_host/xdebug.client_port) :-(" while reading response header from upstream, client: 172.20.0.1, server: hello.dev, request: "GET / HTTP/1.1", upstream: "fastcgi://172.20.0.3:9000", host: "localhost"
+2022/06/24 12:00:10 [error] 26#26: *8 open() "/var/www/hello.dev/favicon.ico" failed (2: No such file or directory), client: 172.20.0.1, server: hello.dev, request: "GET /favicon.ico HTTP/1.1", host: "localhost", referrer: "http://localhost/"
+2022/06/24 12:00:26 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2022/06/24 12:00:26 [notice] 22#22: gracefully shutting down
+2022/06/24 12:00:26 [notice] 31#31: gracefully shutting down
+2022/06/24 12:00:26 [notice] 23#23: gracefully shutting down
+2022/06/24 12:00:26 [notice] 24#24: gracefully shutting down
+2022/06/24 12:00:26 [notice] 25#25: gracefully shutting down
+2022/06/24 12:00:26 [notice] 26#26: gracefully shutting down
+2022/06/24 12:00:26 [notice] 27#27: gracefully shutting down
+2022/06/24 12:00:26 [notice] 28#28: gracefully shutting down
+2022/06/24 12:00:26 [notice] 29#29: gracefully shutting down
+2022/06/24 12:00:26 [notice] 32#32: gracefully shutting down
+2022/06/24 12:00:26 [notice] 33#33: gracefully shutting down
+2022/06/24 12:00:26 [notice] 22#22: exiting
+2022/06/24 12:00:26 [notice] 30#30: gracefully shutting down
+2022/06/24 12:00:26 [notice] 31#31: exiting
+2022/06/24 12:00:26 [notice] 23#23: exiting
+2022/06/24 12:00:26 [notice] 24#24: exiting
+2022/06/24 12:00:26 [notice] 25#25: exiting
+2022/06/24 12:00:26 [notice] 26#26: exiting
+2022/06/24 12:00:26 [notice] 28#28: exiting
+2022/06/24 12:00:26 [notice] 29#29: exiting
+2022/06/24 12:00:26 [notice] 32#32: exiting
+2022/06/24 12:00:26 [notice] 33#33: exiting
+2022/06/24 12:00:26 [notice] 22#22: exit
+2022/06/24 12:00:26 [notice] 30#30: exiting
+2022/06/24 12:00:26 [notice] 31#31: exit
+2022/06/24 12:00:26 [notice] 23#23: exit
+2022/06/24 12:00:26 [notice] 24#24: exit
+2022/06/24 12:00:26 [notice] 25#25: exit
+2022/06/24 12:00:26 [notice] 26#26: exit
+2022/06/24 12:00:26 [notice] 28#28: exit
+2022/06/24 12:00:26 [notice] 29#29: exit
+2022/06/24 12:00:26 [notice] 32#32: exit
+2022/06/24 12:00:26 [notice] 33#33: exit
+2022/06/24 12:00:26 [notice] 30#30: exit
+2022/06/24 12:00:26 [notice] 1#1: signal 17 (SIGCHLD) received from 30
+2022/06/24 12:00:26 [notice] 1#1: worker process 24 exited with code 0
+2022/06/24 12:00:26 [notice] 1#1: worker process 26 exited with code 0
+2022/06/24 12:00:26 [notice] 1#1: worker process 28 exited with code 0
+2022/06/24 12:00:26 [notice] 1#1: worker process 30 exited with code 0
+2022/06/24 12:00:26 [notice] 1#1: worker process 32 exited with code 0
+2022/06/24 12:00:26 [notice] 1#1: signal 29 (SIGIO) received
+2022/06/24 12:00:26 [notice] 1#1: signal 17 (SIGCHLD) received from 26
+2022/06/24 12:00:26 [notice] 1#1: signal 17 (SIGCHLD) received from 33
+2022/06/24 12:00:26 [notice] 1#1: worker process 23 exited with code 0
+2022/06/24 12:00:26 [notice] 1#1: worker process 25 exited with code 0
+2022/06/24 12:00:26 [notice] 1#1: worker process 33 exited with code 0
+2022/06/24 12:00:26 [notice] 1#1: signal 29 (SIGIO) received
+2022/06/24 12:00:26 [notice] 1#1: signal 17 (SIGCHLD) received from 31
+2022/06/24 12:00:26 [notice] 1#1: worker process 22 exited with code 0
+2022/06/24 12:00:26 [notice] 1#1: worker process 29 exited with code 0
+2022/06/24 12:00:26 [notice] 1#1: worker process 31 exited with code 0
+2022/06/24 12:00:26 [notice] 1#1: signal 29 (SIGIO) received
+2022/06/24 12:00:26 [notice] 1#1: signal 17 (SIGCHLD) received from 22
+2022/06/24 12:00:28 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2022/06/24 12:00:29 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2022/06/24 12:00:43 [notice] 1#1: using the "epoll" event method
+2022/06/24 12:00:43 [notice] 1#1: nginx/1.21.6
+2022/06/24 12:00:43 [notice] 1#1: built by gcc 10.2.1 20210110 (Debian 10.2.1-6) 
+2022/06/24 12:00:43 [notice] 1#1: OS: Linux 5.10.16.3-microsoft-standard-WSL2
+2022/06/24 12:00:43 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2022/06/24 12:00:43 [notice] 1#1: start worker processes
+2022/06/24 12:00:43 [notice] 1#1: start worker process 22
+2022/06/24 12:00:43 [notice] 1#1: start worker process 23
+2022/06/24 12:00:43 [notice] 1#1: start worker process 24
+2022/06/24 12:00:43 [notice] 1#1: start worker process 25
+2022/06/24 12:00:43 [notice] 1#1: start worker process 26
+2022/06/24 12:00:43 [notice] 1#1: start worker process 27
+2022/06/24 12:00:43 [notice] 1#1: start worker process 28
+2022/06/24 12:00:43 [notice] 1#1: start worker process 29
+2022/06/24 12:00:43 [notice] 1#1: start worker process 30
+2022/06/24 12:00:43 [notice] 1#1: start worker process 31
+2022/06/24 12:00:43 [notice] 1#1: start worker process 32
+2022/06/24 12:00:43 [notice] 1#1: start worker process 33
+2022/06/24 12:00:46 [error] 23#23: *2 FastCGI sent in stderr: "PHP message: Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: host.docker.internal:9003 (through xdebug.client_host/xdebug.client_port) :-(" while reading response header from upstream, client: 172.20.0.1, server: hello.dev, request: "GET / HTTP/1.1", upstream: "fastcgi://172.20.0.3:9000", host: "localhost"
+2022/06/24 12:00:47 [error] 25#25: *7 FastCGI sent in stderr: "PHP message: Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: host.docker.internal:9003 (through xdebug.client_host/xdebug.client_port) :-(" while reading response header from upstream, client: 172.20.0.1, server: hello.dev, request: "GET / HTTP/1.1", upstream: "fastcgi://172.20.0.3:9000", host: "localhost"
+2022/06/24 12:54:41 [error] 27#27: *11 FastCGI sent in stderr: "PHP message: Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: host.docker.internal:9003 (through xdebug.client_host/xdebug.client_port) :-(" while reading response header from upstream, client: 172.20.0.1, server: hello.dev, request: "GET / HTTP/1.1", upstream: "fastcgi://172.20.0.3:9000", host: "localhost"
+2022/06/24 12:54:42 [error] 27#27: *11 FastCGI sent in stderr: "PHP message: Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: host.docker.internal:9003 (through xdebug.client_host/xdebug.client_port) :-(" while reading response header from upstream, client: 172.20.0.1, server: hello.dev, request: "GET / HTTP/1.1", upstream: "fastcgi://172.20.0.3:9000", host: "localhost"
+2022/06/24 12:57:35 [error] 29#29: *15 FastCGI sent in stderr: "PHP message: Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: host.docker.internal:9003 (through xdebug.client_host/xdebug.client_port) :-(" while reading response header from upstream, client: 172.20.0.1, server: hello.dev, request: "GET / HTTP/1.1", upstream: "fastcgi://172.20.0.3:9000", host: "localhost"
+2022/06/24 12:57:54 [error] 29#29: *15 FastCGI sent in stderr: "PHP message: Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: host.docker.internal:9003 (through xdebug.client_host/xdebug.client_port) :-(" while reading response header from upstream, client: 172.20.0.1, server: hello.dev, request: "GET / HTTP/1.1", upstream: "fastcgi://172.20.0.3:9000", host: "localhost"
+2022/06/24 13:01:41 [error] 33#33: *22 FastCGI sent in stderr: "PHP message: Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: host.docker.internal:9003 (through xdebug.client_host/xdebug.client_port) :-(" while reading response header from upstream, client: 172.20.0.1, server: hello.dev, request: "GET / HTTP/1.1", upstream: "fastcgi://172.20.0.3:9000", host: "localhost"
+2022/06/24 13:02:18 [error] 22#22: *25 FastCGI sent in stderr: "PHP message: Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: host.docker.internal:9003 (through xdebug.client_host/xdebug.client_port) :-(" while reading response header from upstream, client: 172.20.0.1, server: hello.dev, request: "GET / HTTP/1.1", upstream: "fastcgi://172.20.0.3:9000", host: "localhost"
+2022/06/24 13:06:36 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2022/06/24 13:06:36 [notice] 22#22: gracefully shutting down
+2022/06/24 13:06:36 [notice] 32#32: gracefully shutting down
+2022/06/24 13:06:36 [notice] 23#23: gracefully shutting down
+2022/06/24 13:06:36 [notice] 24#24: gracefully shutting down
+2022/06/24 13:06:36 [notice] 25#25: gracefully shutting down
+2022/06/24 13:06:36 [notice] 26#26: gracefully shutting down
+2022/06/24 13:06:36 [notice] 27#27: gracefully shutting down
+2022/06/24 13:06:36 [notice] 28#28: gracefully shutting down
+2022/06/24 13:06:36 [notice] 29#29: gracefully shutting down
+2022/06/24 13:06:36 [notice] 30#30: gracefully shutting down
+2022/06/24 13:06:36 [notice] 31#31: gracefully shutting down
+2022/06/24 13:06:36 [notice] 22#22: exiting
+2022/06/24 13:06:36 [notice] 33#33: gracefully shutting down
+2022/06/24 13:06:36 [notice] 32#32: exiting
+2022/06/24 13:06:36 [notice] 23#23: exiting
+2022/06/24 13:06:36 [notice] 24#24: exiting
+2022/06/24 13:06:36 [notice] 25#25: exiting
+2022/06/24 13:06:36 [notice] 26#26: exiting
+2022/06/24 13:06:36 [notice] 27#27: exiting
+2022/06/24 13:06:36 [notice] 28#28: exiting
+2022/06/24 13:06:36 [notice] 29#29: exiting
+2022/06/24 13:06:36 [notice] 30#30: exiting
+2022/06/24 13:06:36 [notice] 31#31: exiting
+2022/06/24 13:06:36 [notice] 22#22: exit
+2022/06/24 13:06:36 [notice] 31#31: exit
+2022/06/24 13:06:36 [notice] 33#33: exiting
+2022/06/24 13:06:36 [notice] 32#32: exit
+2022/06/24 13:06:36 [notice] 23#23: exit
+2022/06/24 13:06:36 [notice] 24#24: exit
+2022/06/24 13:06:36 [notice] 25#25: exit
+2022/06/24 13:06:36 [notice] 26#26: exit
+2022/06/24 13:06:36 [notice] 27#27: exit
+2022/06/24 13:06:36 [notice] 28#28: exit
+2022/06/24 13:06:36 [notice] 29#29: exit
+2022/06/24 13:06:36 [notice] 30#30: exit
+2022/06/24 13:06:36 [notice] 33#33: exit
+2022/06/24 13:06:36 [notice] 1#1: signal 17 (SIGCHLD) received from 32
+2022/06/24 13:06:36 [notice] 1#1: worker process 26 exited with code 0
+2022/06/24 13:06:36 [notice] 1#1: worker process 30 exited with code 0
+2022/06/24 13:06:36 [notice] 1#1: worker process 31 exited with code 0
+2022/06/24 13:06:36 [notice] 1#1: worker process 32 exited with code 0
+2022/06/24 13:06:36 [notice] 1#1: signal 29 (SIGIO) received
+2022/06/24 13:06:36 [notice] 1#1: signal 17 (SIGCHLD) received from 26
+2022/06/24 13:06:36 [notice] 1#1: signal 17 (SIGCHLD) received from 28
+2022/06/24 13:06:36 [notice] 1#1: worker process 22 exited with code 0
+2022/06/24 13:06:36 [notice] 1#1: worker process 28 exited with code 0
+2022/06/24 13:06:36 [notice] 1#1: signal 29 (SIGIO) received
+2022/06/24 13:06:36 [notice] 1#1: signal 17 (SIGCHLD) received from 22
+2022/06/24 13:06:36 [notice] 1#1: signal 17 (SIGCHLD) received from 33
+2022/06/24 13:06:36 [notice] 1#1: worker process 33 exited with code 0
+2022/06/24 13:06:36 [notice] 1#1: signal 29 (SIGIO) received
+2022/06/24 13:06:36 [notice] 1#1: signal 17 (SIGCHLD) received from 23
+2022/06/24 13:06:36 [notice] 1#1: worker process 23 exited with code 0
+2022/06/24 13:06:36 [notice] 1#1: worker process 25 exited with code 0
+2022/06/24 13:06:36 [notice] 1#1: worker process 29 exited with code 0
+2022/06/24 13:06:36 [notice] 1#1: signal 29 (SIGIO) received
+2022/06/24 13:06:36 [notice] 1#1: signal 17 (SIGCHLD) received from 29
+2022/06/24 13:06:36 [notice] 1#1: signal 17 (SIGCHLD) received from 24
+2022/06/24 13:06:36 [notice] 1#1: worker process 24 exited with code 0
+2022/06/24 13:06:36 [notice] 1#1: worker process 27 exited with code 0
+2022/06/24 13:06:36 [notice] 1#1: exit
+2022/06/24 13:06:45 [notice] 1#1: using the "epoll" event method
+2022/06/24 13:06:45 [notice] 1#1: nginx/1.21.6
+2022/06/24 13:06:45 [notice] 1#1: built by gcc 10.2.1 20210110 (Debian 10.2.1-6) 
+2022/06/24 13:06:45 [notice] 1#1: OS: Linux 5.10.16.3-microsoft-standard-WSL2
+2022/06/24 13:06:45 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2022/06/24 13:06:45 [notice] 1#1: start worker processes
+2022/06/24 13:06:45 [notice] 1#1: start worker process 22
+2022/06/24 13:06:45 [notice] 1#1: start worker process 23
+2022/06/24 13:06:45 [notice] 1#1: start worker process 24
+2022/06/24 13:06:45 [notice] 1#1: start worker process 25
+2022/06/24 13:06:45 [notice] 1#1: start worker process 26
+2022/06/24 13:06:45 [notice] 1#1: start worker process 27
+2022/06/24 13:06:45 [notice] 1#1: start worker process 28
+2022/06/24 13:06:45 [notice] 1#1: start worker process 29
+2022/06/24 13:06:45 [notice] 1#1: start worker process 30
+2022/06/24 13:06:45 [notice] 1#1: start worker process 31
+2022/06/24 13:06:45 [notice] 1#1: start worker process 32
+2022/06/24 13:06:45 [notice] 1#1: start worker process 33
+2022/06/24 13:07:09 [error] 22#22: *1 FastCGI sent in stderr: "PHP message: Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: host.docker.internal:9003 (through xdebug.client_host/xdebug.client_port) :-(" while reading response header from upstream, client: 172.20.0.1, server: hello.dev, request: "GET / HTTP/1.1", upstream: "fastcgi://172.20.0.3:9000", host: "localhost"
+2022/06/24 13:11:23 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2022/06/24 13:11:23 [notice] 22#22: gracefully shutting down
+2022/06/24 13:11:23 [notice] 32#32: gracefully shutting down
+2022/06/24 13:11:23 [notice] 23#23: gracefully shutting down
+2022/06/24 13:11:23 [notice] 24#24: gracefully shutting down
+2022/06/24 13:11:23 [notice] 25#25: gracefully shutting down
+2022/06/24 13:11:23 [notice] 26#26: gracefully shutting down
+2022/06/24 13:11:23 [notice] 28#28: gracefully shutting down
+2022/06/24 13:11:23 [notice] 27#27: gracefully shutting down
+2022/06/24 13:11:23 [notice] 29#29: gracefully shutting down
+2022/06/24 13:11:23 [notice] 30#30: gracefully shutting down
+2022/06/24 13:11:23 [notice] 31#31: gracefully shutting down
+2022/06/24 13:11:23 [notice] 22#22: exiting
+2022/06/24 13:11:23 [notice] 33#33: gracefully shutting down
+2022/06/24 13:11:23 [notice] 32#32: exiting
+2022/06/24 13:11:23 [notice] 23#23: exiting
+2022/06/24 13:11:23 [notice] 24#24: exiting
+2022/06/24 13:11:23 [notice] 25#25: exiting
+2022/06/24 13:11:23 [notice] 26#26: exiting
+2022/06/24 13:11:23 [notice] 28#28: exiting
+2022/06/24 13:11:23 [notice] 27#27: exiting
+2022/06/24 13:11:23 [notice] 29#29: exiting
+2022/06/24 13:11:23 [notice] 30#30: exiting
+2022/06/24 13:11:23 [notice] 31#31: exiting
+2022/06/24 13:11:23 [notice] 22#22: exit
+2022/06/24 13:11:23 [notice] 33#33: exiting
+2022/06/24 13:11:23 [notice] 32#32: exit
+2022/06/24 13:11:23 [notice] 23#23: exit
+2022/06/24 13:11:23 [notice] 24#24: exit
+2022/06/24 13:11:23 [notice] 25#25: exit
+2022/06/24 13:11:23 [notice] 26#26: exit
+2022/06/24 13:11:23 [notice] 28#28: exit
+2022/06/24 13:11:23 [notice] 27#27: exit
+2022/06/24 13:11:23 [notice] 29#29: exit
+2022/06/24 13:11:23 [notice] 30#30: exit
+2022/06/24 13:11:23 [notice] 31#31: exit
+2022/06/24 13:11:23 [notice] 33#33: exit
+2022/06/24 13:11:24 [notice] 1#1: signal 17 (SIGCHLD) received from 26
+2022/06/24 13:11:24 [notice] 1#1: worker process 22 exited with code 0
+2022/06/24 13:11:24 [notice] 1#1: worker process 26 exited with code 0
+2022/06/24 13:11:24 [notice] 1#1: worker process 29 exited with code 0
+2022/06/24 13:11:24 [notice] 1#1: signal 29 (SIGIO) received
+2022/06/24 13:11:24 [notice] 1#1: signal 17 (SIGCHLD) received from 22
+2022/06/24 13:11:24 [notice] 1#1: signal 17 (SIGCHLD) received from 27
+2022/06/24 13:11:24 [notice] 1#1: worker process 24 exited with code 0
+2022/06/24 13:11:24 [notice] 1#1: worker process 25 exited with code 0
+2022/06/24 13:11:24 [notice] 1#1: worker process 27 exited with code 0
+2022/06/24 13:11:24 [notice] 1#1: worker process 30 exited with code 0
+2022/06/24 13:11:24 [notice] 1#1: worker process 31 exited with code 0
+2022/06/24 13:11:24 [notice] 1#1: worker process 32 exited with code 0
+2022/06/24 13:11:24 [notice] 1#1: signal 29 (SIGIO) received
+2022/06/24 13:11:24 [notice] 1#1: signal 17 (SIGCHLD) received from 28
+2022/06/24 13:11:24 [notice] 1#1: worker process 23 exited with code 0
+2022/06/24 13:11:24 [notice] 1#1: worker process 28 exited with code 0
+2022/06/24 13:11:24 [notice] 1#1: signal 29 (SIGIO) received
+2022/06/24 13:11:24 [notice] 1#1: signal 17 (SIGCHLD) received from 33
+2022/06/24 13:11:24 [notice] 1#1: worker process 33 exited with code 0
+2022/06/24 13:11:24 [notice] 1#1: exit
+2022/06/24 13:11:31 [notice] 1#1: using the "epoll" event method
+2022/06/24 13:11:31 [notice] 1#1: nginx/1.21.6
+2022/06/24 13:11:31 [notice] 1#1: built by gcc 10.2.1 20210110 (Debian 10.2.1-6) 
+2022/06/24 13:11:31 [notice] 1#1: OS: Linux 5.10.16.3-microsoft-standard-WSL2
+2022/06/24 13:11:31 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2022/06/24 13:11:31 [notice] 1#1: start worker processes
+2022/06/24 13:11:31 [notice] 1#1: start worker process 22
+2022/06/24 13:11:31 [notice] 1#1: start worker process 23
+2022/06/24 13:11:31 [notice] 1#1: start worker process 24
+2022/06/24 13:11:31 [notice] 1#1: start worker process 25
+2022/06/24 13:11:31 [notice] 1#1: start worker process 26
+2022/06/24 13:11:31 [notice] 1#1: start worker process 27
+2022/06/24 13:11:31 [notice] 1#1: start worker process 28
+2022/06/24 13:11:31 [notice] 1#1: start worker process 29
+2022/06/24 13:11:31 [notice] 1#1: start worker process 30
+2022/06/24 13:11:31 [notice] 1#1: start worker process 31
+2022/06/24 13:11:31 [notice] 1#1: start worker process 32
+2022/06/24 13:11:31 [notice] 1#1: start worker process 33
+2022/06/24 13:30:59 [error] 22#22: *1 FastCGI sent in stderr: "PHP message: Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: host.docker.internal:9003 (through xdebug.client_host/xdebug.client_port) :-(" while reading response header from upstream, client: 172.20.0.1, server: hello.dev, request: "GET / HTTP/1.1", upstream: "fastcgi://172.20.0.3:9000", host: "localhost"
+2022/06/24 13:31:17 [error] 22#22: *1 FastCGI sent in stderr: "PHP message: Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: host.docker.internal:9003 (through xdebug.client_host/xdebug.client_port) :-(" while reading response header from upstream, client: 172.20.0.1, server: hello.dev, request: "GET / HTTP/1.1", upstream: "fastcgi://172.20.0.3:9000", host: "localhost"
+2022/06/24 13:49:27 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2022/06/24 13:49:27 [notice] 22#22: gracefully shutting down
+2022/06/24 13:49:27 [notice] 23#23: gracefully shutting down
+2022/06/24 13:49:27 [notice] 25#25: gracefully shutting down
+2022/06/24 13:49:27 [notice] 24#24: gracefully shutting down
+2022/06/24 13:49:27 [notice] 31#31: gracefully shutting down
+2022/06/24 13:49:27 [notice] 26#26: gracefully shutting down
+2022/06/24 13:49:27 [notice] 27#27: gracefully shutting down
+2022/06/24 13:49:27 [notice] 28#28: gracefully shutting down
+2022/06/24 13:49:27 [notice] 29#29: gracefully shutting down
+2022/06/24 13:49:27 [notice] 30#30: gracefully shutting down
+2022/06/24 13:49:27 [notice] 32#32: gracefully shutting down
+2022/06/24 13:49:27 [notice] 22#22: exiting
+2022/06/24 13:49:27 [notice] 23#23: exiting
+2022/06/24 13:49:27 [notice] 33#33: gracefully shutting down
+2022/06/24 13:49:27 [notice] 25#25: exiting
+2022/06/24 13:49:27 [notice] 29#29: exiting
+2022/06/24 13:49:27 [notice] 26#26: exiting
+2022/06/24 13:49:27 [notice] 24#24: exiting
+2022/06/24 13:49:27 [notice] 31#31: exiting
+2022/06/24 13:49:27 [notice] 27#27: exiting
+2022/06/24 13:49:27 [notice] 28#28: exiting
+2022/06/24 13:49:27 [notice] 22#22: exit
+2022/06/24 13:49:27 [notice] 27#27: exit
+2022/06/24 13:49:27 [notice] 23#23: exit
+2022/06/24 13:49:27 [notice] 32#32: exiting
+2022/06/24 13:49:27 [notice] 30#30: exiting
+2022/06/24 13:49:27 [notice] 25#25: exit
+2022/06/24 13:49:27 [notice] 29#29: exit
+2022/06/24 13:49:27 [notice] 33#33: exiting
+2022/06/24 13:49:27 [notice] 26#26: exit
+2022/06/24 13:49:27 [notice] 24#24: exit
+2022/06/24 13:49:27 [notice] 31#31: exit
+2022/06/24 13:49:27 [notice] 28#28: exit
+2022/06/24 13:49:27 [notice] 32#32: exit
+2022/06/24 13:49:27 [notice] 30#30: exit
+2022/06/24 13:49:27 [notice] 33#33: exit
+2022/06/24 13:49:27 [notice] 1#1: signal 17 (SIGCHLD) received from 25
+2022/06/24 13:49:27 [notice] 1#1: worker process 24 exited with code 0
+2022/06/24 13:49:27 [notice] 1#1: worker process 25 exited with code 0
+2022/06/24 13:49:27 [notice] 1#1: worker process 31 exited with code 0
+2022/06/24 13:49:27 [notice] 1#1: worker process 33 exited with code 0
+2022/06/24 13:49:27 [notice] 1#1: signal 29 (SIGIO) received
+2022/06/24 13:49:27 [notice] 1#1: signal 17 (SIGCHLD) received from 31
+2022/06/24 13:49:27 [notice] 1#1: signal 17 (SIGCHLD) received from 32
+2022/06/24 13:49:27 [notice] 1#1: worker process 23 exited with code 0
+2022/06/24 13:49:27 [notice] 1#1: worker process 27 exited with code 0
+2022/06/24 13:49:27 [notice] 1#1: worker process 32 exited with code 0
+2022/06/24 13:49:27 [notice] 1#1: signal 29 (SIGIO) received
+2022/06/24 13:49:27 [notice] 1#1: signal 17 (SIGCHLD) received from 26
+2022/06/24 13:49:27 [notice] 1#1: worker process 26 exited with code 0
+2022/06/24 13:49:27 [notice] 1#1: signal 29 (SIGIO) received
+2022/06/24 13:49:27 [notice] 1#1: signal 17 (SIGCHLD) received from 30
+2022/06/24 13:49:27 [notice] 1#1: worker process 30 exited with code 0
+2022/06/24 13:49:27 [notice] 1#1: worker process 22 exited with code 0
+2022/06/24 13:49:27 [notice] 1#1: signal 29 (SIGIO) received
+2022/06/24 13:49:27 [notice] 1#1: signal 17 (SIGCHLD) received from 22
+2022/06/24 13:49:27 [notice] 1#1: signal 17 (SIGCHLD) received from 28
+2022/06/24 13:49:27 [notice] 1#1: worker process 28 exited with code 0
+2022/06/24 13:49:27 [notice] 1#1: signal 29 (SIGIO) received
+2022/06/24 13:49:27 [notice] 1#1: signal 17 (SIGCHLD) received from 29
+2022/06/24 13:49:27 [notice] 1#1: worker process 29 exited with code 0
+2022/06/24 13:49:27 [notice] 1#1: exit
+2022/06/24 13:49:38 [notice] 1#1: using the "epoll" event method
+2022/06/24 13:49:38 [notice] 1#1: nginx/1.21.6
+2022/06/24 13:49:38 [notice] 1#1: built by gcc 10.2.1 20210110 (Debian 10.2.1-6) 
+2022/06/24 13:49:38 [notice] 1#1: OS: Linux 5.10.16.3-microsoft-standard-WSL2
+2022/06/24 13:49:38 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2022/06/24 13:49:38 [notice] 1#1: start worker processes
+2022/06/24 13:49:38 [notice] 1#1: start worker process 22
+2022/06/24 13:49:38 [notice] 1#1: start worker process 23
+2022/06/24 13:49:38 [notice] 1#1: start worker process 24
+2022/06/24 13:49:38 [notice] 1#1: start worker process 25
+2022/06/24 13:49:38 [notice] 1#1: start worker process 26
+2022/06/24 13:49:38 [notice] 1#1: start worker process 27
+2022/06/24 13:49:38 [notice] 1#1: start worker process 28
+2022/06/24 13:49:38 [notice] 1#1: start worker process 29
+2022/06/24 13:49:38 [notice] 1#1: start worker process 30
+2022/06/24 13:49:38 [notice] 1#1: start worker process 31
+2022/06/24 13:49:38 [notice] 1#1: start worker process 32
+2022/06/24 13:49:38 [notice] 1#1: start worker process 33
+2022/06/24 13:58:30 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2022/06/24 13:58:30 [notice] 22#22: gracefully shutting down
+2022/06/24 13:58:30 [notice] 32#32: gracefully shutting down
+2022/06/24 13:58:30 [notice] 23#23: gracefully shutting down
+2022/06/24 13:58:30 [notice] 24#24: gracefully shutting down
+2022/06/24 13:58:30 [notice] 25#25: gracefully shutting down
+2022/06/24 13:58:30 [notice] 26#26: gracefully shutting down
+2022/06/24 13:58:30 [notice] 27#27: gracefully shutting down
+2022/06/24 13:58:30 [notice] 28#28: gracefully shutting down
+2022/06/24 13:58:30 [notice] 30#30: gracefully shutting down
+2022/06/24 13:58:30 [notice] 30#30: exiting
+2022/06/24 13:58:30 [notice] 29#29: gracefully shutting down
+2022/06/24 13:58:30 [notice] 31#31: gracefully shutting down
+2022/06/24 13:58:30 [notice] 33#33: gracefully shutting down
+2022/06/24 13:58:30 [notice] 22#22: exiting
+2022/06/24 13:58:30 [notice] 32#32: exiting
+2022/06/24 13:58:30 [notice] 23#23: exiting
+2022/06/24 13:58:30 [notice] 24#24: exiting
+2022/06/24 13:58:30 [notice] 25#25: exiting
+2022/06/24 13:58:30 [notice] 26#26: exiting
+2022/06/24 13:58:30 [notice] 27#27: exiting
+2022/06/24 13:58:30 [notice] 28#28: exiting
+2022/06/24 13:58:30 [notice] 30#30: exit
+2022/06/24 13:58:30 [notice] 29#29: exiting
+2022/06/24 13:58:30 [notice] 31#31: exiting
+2022/06/24 13:58:30 [notice] 33#33: exiting
+2022/06/24 13:58:30 [notice] 22#22: exit
+2022/06/24 13:58:30 [notice] 32#32: exit
+2022/06/24 13:58:30 [notice] 23#23: exit
+2022/06/24 13:58:30 [notice] 24#24: exit
+2022/06/24 13:58:30 [notice] 25#25: exit
+2022/06/24 13:58:30 [notice] 26#26: exit
+2022/06/24 13:58:30 [notice] 27#27: exit
+2022/06/24 13:58:30 [notice] 28#28: exit
+2022/06/24 13:58:30 [notice] 29#29: exit
+2022/06/24 13:58:30 [notice] 31#31: exit
+2022/06/24 13:58:30 [notice] 33#33: exit
+2022/06/24 13:58:30 [notice] 1#1: signal 17 (SIGCHLD) received from 28
+2022/06/24 13:58:30 [notice] 1#1: worker process 23 exited with code 0
+2022/06/24 13:58:30 [notice] 1#1: worker process 28 exited with code 0
+2022/06/24 13:58:30 [notice] 1#1: worker process 29 exited with code 0
+2022/06/24 13:58:30 [notice] 1#1: signal 29 (SIGIO) received
+2022/06/24 13:58:30 [notice] 1#1: signal 17 (SIGCHLD) received from 29
+2022/06/24 13:58:30 [notice] 1#1: signal 17 (SIGCHLD) received from 31
+2022/06/24 13:58:30 [notice] 1#1: worker process 26 exited with code 0
+2022/06/24 13:58:30 [notice] 1#1: worker process 31 exited with code 0
+2022/06/24 13:58:30 [notice] 1#1: signal 29 (SIGIO) received
+2022/06/24 13:58:30 [notice] 1#1: signal 17 (SIGCHLD) received from 26
+2022/06/24 13:58:30 [notice] 1#1: signal 17 (SIGCHLD) received from 33
+2022/06/24 13:58:30 [notice] 1#1: worker process 22 exited with code 0
+2022/06/24 13:58:30 [notice] 1#1: worker process 24 exited with code 0
+2022/06/24 13:58:30 [notice] 1#1: worker process 25 exited with code 0
+2022/06/24 13:58:30 [notice] 1#1: worker process 27 exited with code 0
+2022/06/24 13:58:30 [notice] 1#1: worker process 30 exited with code 0
+2022/06/24 13:58:30 [notice] 1#1: worker process 33 exited with code 0
+2022/06/24 13:58:30 [notice] 1#1: signal 29 (SIGIO) received
+2022/06/24 13:58:30 [notice] 1#1: signal 17 (SIGCHLD) received from 30
+2022/06/24 13:58:30 [notice] 1#1: signal 17 (SIGCHLD) received from 32
+2022/06/24 13:58:30 [notice] 1#1: worker process 32 exited with code 0
+2022/06/24 13:58:30 [notice] 1#1: exit
+2022/06/24 13:58:38 [notice] 1#1: using the "epoll" event method
+2022/06/24 13:58:38 [notice] 1#1: nginx/1.21.6
+2022/06/24 13:58:38 [notice] 1#1: built by gcc 10.2.1 20210110 (Debian 10.2.1-6) 
+2022/06/24 13:58:38 [notice] 1#1: OS: Linux 5.10.16.3-microsoft-standard-WSL2
+2022/06/24 13:58:38 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2022/06/24 13:58:38 [notice] 1#1: start worker processes
+2022/06/24 13:58:38 [notice] 1#1: start worker process 22
+2022/06/24 13:58:38 [notice] 1#1: start worker process 23
+2022/06/24 13:58:38 [notice] 1#1: start worker process 24
+2022/06/24 13:58:38 [notice] 1#1: start worker process 25
+2022/06/24 13:58:38 [notice] 1#1: start worker process 26
+2022/06/24 13:58:38 [notice] 1#1: start worker process 27
+2022/06/24 13:58:38 [notice] 1#1: start worker process 28
+2022/06/24 13:58:38 [notice] 1#1: start worker process 29
+2022/06/24 13:58:38 [notice] 1#1: start worker process 30
+2022/06/24 13:58:38 [notice] 1#1: start worker process 31
+2022/06/24 13:58:38 [notice] 1#1: start worker process 32
+2022/06/24 13:58:38 [notice] 1#1: start worker process 33
+2022/06/24 14:03:31 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2022/06/24 14:03:31 [notice] 22#22: gracefully shutting down
+2022/06/24 14:03:31 [notice] 33#33: gracefully shutting down
+2022/06/24 14:03:31 [notice] 23#23: gracefully shutting down
+2022/06/24 14:03:31 [notice] 24#24: gracefully shutting down
+2022/06/24 14:03:31 [notice] 24#24: exiting
+2022/06/24 14:03:31 [notice] 25#25: gracefully shutting down
+2022/06/24 14:03:31 [notice] 26#26: gracefully shutting down
+2022/06/24 14:03:31 [notice] 28#28: gracefully shutting down
+2022/06/24 14:03:31 [notice] 27#27: gracefully shutting down
+2022/06/24 14:03:31 [notice] 29#29: gracefully shutting down
+2022/06/24 14:03:31 [notice] 30#30: gracefully shutting down
+2022/06/24 14:03:31 [notice] 31#31: gracefully shutting down
+2022/06/24 14:03:31 [notice] 32#32: gracefully shutting down
+2022/06/24 14:03:31 [notice] 22#22: exiting
+2022/06/24 14:03:31 [notice] 33#33: exiting
+2022/06/24 14:03:31 [notice] 23#23: exiting
+2022/06/24 14:03:31 [notice] 24#24: exit
+2022/06/24 14:03:31 [notice] 25#25: exiting
+2022/06/24 14:03:31 [notice] 26#26: exiting
+2022/06/24 14:03:31 [notice] 28#28: exiting
+2022/06/24 14:03:31 [notice] 27#27: exiting
+2022/06/24 14:03:31 [notice] 29#29: exiting
+2022/06/24 14:03:31 [notice] 30#30: exiting
+2022/06/24 14:03:31 [notice] 31#31: exiting
+2022/06/24 14:03:31 [notice] 32#32: exiting
+2022/06/24 14:03:31 [notice] 22#22: exit
+2022/06/24 14:03:31 [notice] 33#33: exit
+2022/06/24 14:03:31 [notice] 23#23: exit
+2022/06/24 14:03:31 [notice] 25#25: exit
+2022/06/24 14:03:31 [notice] 26#26: exit
+2022/06/24 14:03:31 [notice] 28#28: exit
+2022/06/24 14:03:31 [notice] 27#27: exit
+2022/06/24 14:03:31 [notice] 29#29: exit
+2022/06/24 14:03:31 [notice] 30#30: exit
+2022/06/24 14:03:31 [notice] 31#31: exit
+2022/06/24 14:03:31 [notice] 32#32: exit
+2022/06/24 14:03:31 [notice] 1#1: signal 17 (SIGCHLD) received from 33
+2022/06/24 14:03:31 [notice] 1#1: worker process 25 exited with code 0
+2022/06/24 14:03:31 [notice] 1#1: worker process 33 exited with code 0
+2022/06/24 14:03:31 [notice] 1#1: signal 29 (SIGIO) received
+2022/06/24 14:03:31 [notice] 1#1: signal 17 (SIGCHLD) received from 25
+2022/06/24 14:03:31 [notice] 1#1: signal 17 (SIGCHLD) received from 23
+2022/06/24 14:03:31 [notice] 1#1: worker process 23 exited with code 0
+2022/06/24 14:03:31 [notice] 1#1: worker process 27 exited with code 0
+2022/06/24 14:03:31 [notice] 1#1: signal 29 (SIGIO) received
+2022/06/24 14:03:31 [notice] 1#1: signal 17 (SIGCHLD) received from 27
+2022/06/24 14:03:31 [notice] 1#1: signal 17 (SIGCHLD) received from 29
+2022/06/24 14:03:31 [notice] 1#1: worker process 29 exited with code 0
+2022/06/24 14:03:31 [notice] 1#1: signal 29 (SIGIO) received
+2022/06/24 14:03:31 [notice] 1#1: signal 17 (SIGCHLD) received from 28
+2022/06/24 14:03:31 [notice] 1#1: worker process 22 exited with code 0
+2022/06/24 14:03:31 [notice] 1#1: worker process 24 exited with code 0
+2022/06/24 14:03:31 [notice] 1#1: worker process 28 exited with code 0
+2022/06/24 14:03:31 [notice] 1#1: worker process 30 exited with code 0
+2022/06/24 14:03:31 [notice] 1#1: worker process 31 exited with code 0
+2022/06/24 14:03:31 [notice] 1#1: signal 29 (SIGIO) received
+2022/06/24 14:03:31 [notice] 1#1: signal 17 (SIGCHLD) received from 22
+2022/06/24 14:03:31 [notice] 1#1: signal 17 (SIGCHLD) received from 26
+2022/06/24 14:03:31 [notice] 1#1: worker process 26 exited with code 0
+2022/06/24 14:03:31 [notice] 1#1: worker process 32 exited with code 0
+2022/06/24 14:03:31 [notice] 1#1: exit
+2022/06/24 14:03:39 [notice] 1#1: using the "epoll" event method
+2022/06/24 14:03:39 [notice] 1#1: nginx/1.21.6
+2022/06/24 14:03:39 [notice] 1#1: built by gcc 10.2.1 20210110 (Debian 10.2.1-6) 
+2022/06/24 14:03:39 [notice] 1#1: OS: Linux 5.10.16.3-microsoft-standard-WSL2
+2022/06/24 14:03:39 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2022/06/24 14:03:39 [notice] 1#1: start worker processes
+2022/06/24 14:03:39 [notice] 1#1: start worker process 23
+2022/06/24 14:03:39 [notice] 1#1: start worker process 24
+2022/06/24 14:03:39 [notice] 1#1: start worker process 25
+2022/06/24 14:03:39 [notice] 1#1: start worker process 26
+2022/06/24 14:03:39 [notice] 1#1: start worker process 27
+2022/06/24 14:03:39 [notice] 1#1: start worker process 28
+2022/06/24 14:03:39 [notice] 1#1: start worker process 29
+2022/06/24 14:03:39 [notice] 1#1: start worker process 30
+2022/06/24 14:03:39 [notice] 1#1: start worker process 31
+2022/06/24 14:03:39 [notice] 1#1: start worker process 32
+2022/06/24 14:03:39 [notice] 1#1: start worker process 33
+2022/06/24 14:03:39 [notice] 1#1: start worker process 34
+2022/06/24 14:08:49 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2022/06/24 14:08:49 [notice] 23#23: gracefully shutting down
+2022/06/24 14:08:49 [notice] 24#24: gracefully shutting down
+2022/06/24 14:08:49 [notice] 25#25: gracefully shutting down
+2022/06/24 14:08:49 [notice] 26#26: gracefully shutting down
+2022/06/24 14:08:49 [notice] 27#27: gracefully shutting down
+2022/06/24 14:08:49 [notice] 29#29: gracefully shutting down
+2022/06/24 14:08:49 [notice] 28#28: gracefully shutting down
+2022/06/24 14:08:49 [notice] 30#30: gracefully shutting down
+2022/06/24 14:08:49 [notice] 31#31: gracefully shutting down
+2022/06/24 14:08:49 [notice] 32#32: gracefully shutting down
+2022/06/24 14:08:49 [notice] 34#34: gracefully shutting down
+2022/06/24 14:08:49 [notice] 33#33: gracefully shutting down
+2022/06/24 14:08:49 [notice] 23#23: exiting
+2022/06/24 14:08:49 [notice] 24#24: exiting
+2022/06/24 14:08:49 [notice] 25#25: exiting
+2022/06/24 14:08:49 [notice] 26#26: exiting
+2022/06/24 14:08:49 [notice] 27#27: exiting
+2022/06/24 14:08:49 [notice] 29#29: exiting
+2022/06/24 14:08:49 [notice] 28#28: exiting
+2022/06/24 14:08:49 [notice] 30#30: exiting
+2022/06/24 14:08:49 [notice] 31#31: exiting
+2022/06/24 14:08:49 [notice] 32#32: exiting
+2022/06/24 14:08:49 [notice] 34#34: exiting
+2022/06/24 14:08:49 [notice] 33#33: exiting
+2022/06/24 14:08:49 [notice] 23#23: exit
+2022/06/24 14:08:49 [notice] 24#24: exit
+2022/06/24 14:08:49 [notice] 25#25: exit
+2022/06/24 14:08:49 [notice] 26#26: exit
+2022/06/24 14:08:49 [notice] 27#27: exit
+2022/06/24 14:08:49 [notice] 29#29: exit
+2022/06/24 14:08:49 [notice] 28#28: exit
+2022/06/24 14:08:49 [notice] 30#30: exit
+2022/06/24 14:08:49 [notice] 31#31: exit
+2022/06/24 14:08:49 [notice] 32#32: exit
+2022/06/24 14:08:49 [notice] 34#34: exit
+2022/06/24 14:08:49 [notice] 33#33: exit
+2022/06/24 14:08:49 [notice] 1#1: signal 17 (SIGCHLD) received from 28
+2022/06/24 14:08:49 [notice] 1#1: worker process 28 exited with code 0
+2022/06/24 14:08:49 [notice] 1#1: signal 29 (SIGIO) received
+2022/06/24 14:08:49 [notice] 1#1: signal 17 (SIGCHLD) received from 29
+2022/06/24 14:08:49 [notice] 1#1: worker process 29 exited with code 0
+2022/06/24 14:08:49 [notice] 1#1: signal 29 (SIGIO) received
+2022/06/24 14:08:49 [notice] 1#1: signal 17 (SIGCHLD) received from 30
+2022/06/24 14:08:49 [notice] 1#1: worker process 24 exited with code 0
+2022/06/24 14:08:49 [notice] 1#1: worker process 30 exited with code 0
+2022/06/24 14:08:49 [notice] 1#1: signal 29 (SIGIO) received
+2022/06/24 14:08:49 [notice] 1#1: signal 17 (SIGCHLD) received from 24
+2022/06/24 14:08:49 [notice] 1#1: signal 17 (SIGCHLD) received from 32
+2022/06/24 14:08:49 [notice] 1#1: worker process 32 exited with code 0
+2022/06/24 14:08:49 [notice] 1#1: worker process 33 exited with code 0
+2022/06/24 14:08:49 [notice] 1#1: signal 29 (SIGIO) received
+2022/06/24 14:08:49 [notice] 1#1: signal 17 (SIGCHLD) received from 26
+2022/06/24 14:08:49 [notice] 1#1: worker process 26 exited with code 0
+2022/06/24 14:08:49 [notice] 1#1: worker process 34 exited with code 0
+2022/06/24 14:08:49 [notice] 1#1: signal 29 (SIGIO) received
+2022/06/24 14:08:49 [notice] 1#1: signal 17 (SIGCHLD) received from 25
+2022/06/24 14:08:49 [notice] 1#1: worker process 25 exited with code 0
+2022/06/24 14:08:49 [notice] 1#1: worker process 31 exited with code 0
+2022/06/24 14:08:49 [notice] 1#1: signal 29 (SIGIO) received
+2022/06/24 14:08:49 [notice] 1#1: signal 17 (SIGCHLD) received from 31
+2022/06/24 14:08:49 [notice] 1#1: signal 17 (SIGCHLD) received from 27
+2022/06/24 14:08:49 [notice] 1#1: worker process 27 exited with code 0
+2022/06/24 14:08:49 [notice] 1#1: signal 29 (SIGIO) received
+2022/06/24 14:08:49 [notice] 1#1: signal 17 (SIGCHLD) received from 23
+2022/06/24 14:08:49 [notice] 1#1: worker process 23 exited with code 0
+2022/06/24 14:08:49 [notice] 1#1: exit
+2022/06/24 14:08:58 [notice] 1#1: using the "epoll" event method
+2022/06/24 14:08:58 [notice] 1#1: nginx/1.21.6
+2022/06/24 14:08:58 [notice] 1#1: built by gcc 10.2.1 20210110 (Debian 10.2.1-6) 
+2022/06/24 14:08:58 [notice] 1#1: OS: Linux 5.10.16.3-microsoft-standard-WSL2
+2022/06/24 14:08:58 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2022/06/24 14:08:58 [notice] 1#1: start worker processes
+2022/06/24 14:08:58 [notice] 1#1: start worker process 23
+2022/06/24 14:08:58 [notice] 1#1: start worker process 24
+2022/06/24 14:08:58 [notice] 1#1: start worker process 25
+2022/06/24 14:08:58 [notice] 1#1: start worker process 26
+2022/06/24 14:08:58 [notice] 1#1: start worker process 27
+2022/06/24 14:08:58 [notice] 1#1: start worker process 28
+2022/06/24 14:08:58 [notice] 1#1: start worker process 29
+2022/06/24 14:08:58 [notice] 1#1: start worker process 30
+2022/06/24 14:08:58 [notice] 1#1: start worker process 31
+2022/06/24 14:08:58 [notice] 1#1: start worker process 32
+2022/06/24 14:08:58 [notice] 1#1: start worker process 33
+2022/06/24 14:08:58 [notice] 1#1: start worker process 34
+2022/06/24 16:56:03 [error] 23#23: *1 FastCGI sent in stderr: "PHP message: Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: host.docker.internal:9003 (through xdebug.client_host/xdebug.client_port) :-(" while reading response header from upstream, client: 172.20.0.1, server: hello.dev, request: "GET / HTTP/1.1", upstream: "fastcgi://172.20.0.3:9000", host: "localhost"
+2022/06/24 18:13:46 [notice] 1#1: using the "epoll" event method
+2022/06/24 18:13:46 [notice] 1#1: nginx/1.21.6
+2022/06/24 18:13:46 [notice] 1#1: built by gcc 10.2.1 20210110 (Debian 10.2.1-6) 
+2022/06/24 18:13:46 [notice] 1#1: OS: Linux 5.10.16.3-microsoft-standard-WSL2
+2022/06/24 18:13:46 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2022/06/24 18:13:46 [notice] 1#1: start worker processes
+2022/06/24 18:13:46 [notice] 1#1: start worker process 22
+2022/06/24 18:13:46 [notice] 1#1: start worker process 23
+2022/06/24 18:13:46 [notice] 1#1: start worker process 24
+2022/06/24 18:13:46 [notice] 1#1: start worker process 25
+2022/06/24 18:13:46 [notice] 1#1: start worker process 26
+2022/06/24 18:13:46 [notice] 1#1: start worker process 27
+2022/06/24 18:13:46 [notice] 1#1: start worker process 28
+2022/06/24 18:13:46 [notice] 1#1: start worker process 29
+2022/06/24 18:13:46 [notice] 1#1: start worker process 30
+2022/06/24 18:13:46 [notice] 1#1: start worker process 31
+2022/06/24 18:13:46 [notice] 1#1: start worker process 32
+2022/06/24 18:13:46 [notice] 1#1: start worker process 33

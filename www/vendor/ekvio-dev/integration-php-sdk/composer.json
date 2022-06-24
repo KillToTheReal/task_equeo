@@ -1,0 +1,33 @@
+{
+  "name": "ekvio-dev/integration-php-sdk",
+  "description": "Ekvio integration PHP SDK",
+  "type": "project",
+  "license": "MIT",
+  "minimum-stability": "stable",
+  "authors": [
+    {
+      "name": "Vuylov Dmitry",
+      "email": "vuylov.dmitry@e-queo.com"
+    }
+  ],
+  "require": {
+    "php": "^7.2",
+    "ext-curl": "*",
+    "ext-json": "*",
+    "ext-mbstring": "*",
+    "guzzlehttp/guzzle": "^7.0",
+    "webmozart/assert": "^1.9"
+  },
+  "autoload": {
+    "psr-4": {
+      "Ekvio\\Integration\\Sdk\\": "src/",
+      "Ekvio\\Integration\\Sdk\\Tests\\": "tests/"
+    }
+  },
+  "config": {
+    "sort-packages": true
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^9"
+  }
+}
