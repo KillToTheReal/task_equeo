@@ -20,13 +20,14 @@ use League\Flysystem\FilesystemInterface;
 use League\Flysystem\Sftp\SftpAdapter;
 use Psr\Container\ContainerInterface;
 use Psr\Http\Client\ClientInterface;
-
+use GuzzleHttp\Psr7\Request as Req;
+use GuzzleHttp\Psr7\Response;
 require_once __DIR__.'/../vendor/autoload.php';
 
 
 $dotenv = Dotenv\Dotenv::createImmutable(__DIR__);
 $dotenv->load();
-print_r($_ENV);
+//print_r($_ENV);
 $appRoot = __DIR__;
 $tmpDir = 'tmp';
 
@@ -112,16 +113,31 @@ $config = array_merge_recursive(EnvironmentConfiguration::create(), [
     ]
 ]);
 
+$keyBr = "nwXfgwxxOLfE9w0joPSf4NAyab04T3Us";
+
 $config["name"]="Ya ne ponyal pochemu etogo net v \$config iznachal'no";
 $config["company"]="Tozhe ne zadaetsya";
+$array2 = array(
+    "url"=>"https://integration.hotfix-prod.ru",
+    "headers"=>[
+        "Authorization" => "Bearer nwXfgwxxOLfE9w0joPSf4NAyab04T3Us",
+        "Accept"=>"application/json",
+        "Connection" => "keep-alive",
+        "Cookie" => "_csrf=BKhe69n74ysxbbrJvBqsMxzidM9jCNNM"
+    ],
+    "params" => ["per_page" => 100, "in_whitelist"=> 'True']
+    );
 
 
+(new Adapter($config))->run(Composite::class, [HelloWorld::class=>$array2,
+    \App\ByeWorld::class=>[]]);
 
-(new Adapter($config))->run(Composite::class, [HelloWorld::class=>[]]);
+//$client = new Client(["base_uri"=>$array2['url']]);
+//var_dump($client->request("GET",'',['headers'=>$array2["headers"],'query'=>$array2["params"]])->getBody()->getContents());
 
 
-(new Adapter($config))->run(Composite::class, [
-    GetUsersWithPersonalAssignments::class => [],
-    CsvReportGenerator::class => [],
-    DataExporter::class => []
-]);
+//(new Adapter($config))->run(Composite::class, [
+//    GetUsersWithPersonalAssignments::class => [],
+//    CsvReportGenerator::class => [],
+//    DataExporter::class => []
+//]);
