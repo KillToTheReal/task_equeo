@@ -1,10 +1,10 @@
 {
-  "name": "ekvio-dev/eq-megafon-user-export",
-  "description": "Ekvio Megafon user exporter",
+  "name": "ekvio-dev/adaptertest",
+  "description": "Api user exporter",
   "authors": [
     {
-      "name": "Dmitry Vuylov",
-      "email": "vuylov.dmitry@e-queo.com"
+      "name": "Kirill Gerasimenko",
+      "email": "gerasimenko778@mail.ru"
     }
   ],
   "type": "project",

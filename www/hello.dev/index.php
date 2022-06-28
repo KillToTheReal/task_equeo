@@ -1,11 +1,8 @@
 <?php
 
 declare(strict_types=1);
-
-use App\CsvReportGenerator;
-use App\GetUsersWithPersonalAssignments;
-use App\DataExporter;
-use App\HelloWorld;
+use App\ApiRequester;
+use App\FileSender;
 use Ekvio\Integration\Contracts\Profiler;
 use Ekvio\Integration\Sdk\V2\EqueoClient;
 use Ekvio\Integration\Sdk\V2\Integration\HttpIntegrationResult;
@@ -20,19 +17,15 @@ use League\Flysystem\FilesystemInterface;
 use League\Flysystem\Sftp\SftpAdapter;
 use Psr\Container\ContainerInterface;
 use Psr\Http\Client\ClientInterface;
-use GuzzleHttp\Psr7\Request as Req;
-use GuzzleHttp\Psr7\Response;
 require_once __DIR__.'/../vendor/autoload.php';
 
-
+// Переменные окружения из файла
 $dotenv = Dotenv\Dotenv::createImmutable(__DIR__);
 $dotenv->load();
-//print_r($_ENV);
+
 $appRoot = __DIR__;
 $tmpDir = 'tmp';
-
-$sftpReportPath = (string) getenv('INTEGRATION_SFTP_REPORT_PATH');
-
+// Это было здесь до меня
 $config = array_merge_recursive(EnvironmentConfiguration::create(), [
     'services' => [
         ClientInterface::class => function () {
@@ -113,31 +106,22 @@ $config = array_merge_recursive(EnvironmentConfiguration::create(), [
     ]
 ]);
 
-$keyBr = "nwXfgwxxOLfE9w0joPSf4NAyab04T3Us";
 
-$config["name"]="Ya ne ponyal pochemu etogo net v \$config iznachal'no";
-$config["company"]="Tozhe ne zadaetsya";
+$keyBr = "nwXfgwxxOLfE9w0joPSf4NAyab04T3Us";
+$config["name"]="Api sender to mail.";
+$config["company"]="None";
 $array2 = array(
     "url"=>"https://integration.hotfix-prod.ru",
     "headers"=>[
-        "Authorization" => "Bearer nwXfgwxxOLfE9w0joPSf4NAyab04T3Us",
+        "Authorization" => "Bearer ".$keyBr,
         "Accept"=>"application/json",
         "Connection" => "keep-alive",
-        "Cookie" => "_csrf=BKhe69n74ysxbbrJvBqsMxzidM9jCNNM"
     ],
-    "params" => ["per_page" => 100, "in_whitelist"=> 'True']
+    "params" => ["per_page" => 200,"in_whitelist"=>"true","page" => 1]
     );
 
-
-(new Adapter($config))->run(Composite::class, [HelloWorld::class=>$array2,
-    \App\ByeWorld::class=>[]]);
-
-//$client = new Client(["base_uri"=>$array2['url']]);
-//var_dump($client->request("GET",'',['headers'=>$array2["headers"],'query'=>$array2["params"]])->getBody()->getContents());
+(new Adapter($config))->run(Composite::class, [ApiRequester::class=>$array2,
+    FileSender::class=>[]]);
 
 
-//(new Adapter($config))->run(Composite::class, [
-//    GetUsersWithPersonalAssignments::class => [],
-//    CsvReportGenerator::class => [],
-//    DataExporter::class => []
-//]);
+
